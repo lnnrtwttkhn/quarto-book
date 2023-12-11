@@ -1,10 +1,39 @@
 project:
   type: book
+  execute-dir: project
+  output-dir: _book
+  preview:
+    port: 4500
+    host: 127.0.0.1
+    browser: true
+    watch-inputs: true
+    navigate: true
+
+metadata-files:
+  - _authors.yml
+  - _affiliations.yml
 
 book:
-  title: "Quarto-book"
-  author: "Norah Jones"
-  date: "12/11/2023"
+  title: "{{< var book.title >}}"
+  subtitle: "{{< var book.subtitle >}}"
+  date: today
+  date-format: "{{< var book.date-format >}}"
+  accessed: today
+  language: en
+  site-url: "https://lennartwittkuhn.com/quarto-book"
+  repo-url: "https://github.com/lnnrtwttkhn/quarto-book"
+  repo-branch: "main"
+  issue-url: "{{< var book.repo-url >}}/issues"
+  repo-actions: [edit, source, issue]
+  reader-mode: true
+  search:
+    location: navbar
+    type: overlay
+    limit: 20
+    copy-button: true
+  page-navigation: true
+  back-to-top-navigation: true
+  
   chapters:
     - index.qmd
 
