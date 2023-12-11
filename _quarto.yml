@@ -1,0 +1,13 @@
+project:
+  type: book
+
+book:
+  title: "Quarto-book"
+  author: "Norah Jones"
+  date: "12/11/2023"
+  chapters:
+    - index.qmd
+
+format:
+  html:
+    theme: cosmo
