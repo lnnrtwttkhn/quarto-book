@@ -1,0 +1,4 @@
+[codespell]
+skip = .git,*.pdf,*.svg,renv.lock,renv,env,_book,*.csl
+#
+# ignore-words-list =
