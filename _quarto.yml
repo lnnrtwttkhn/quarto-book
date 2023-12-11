@@ -40,3 +40,4 @@ book:
 format:
   html:
     theme: cosmo
+    include-before-body: plausible.html
