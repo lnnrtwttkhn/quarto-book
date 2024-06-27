@@ -13,7 +13,6 @@ book:
   # book:
   title: "The Repro Book"
   subtitle: "A Guide to Reproducible Research"
-  description: "The Repro Book - A Guide to Reproducible Research"
   # favicon: static/logo.svg
   site-url: https://lennartwittkuhn.com/repro-book/
   repo-url: https://github.com/lnnrtwttkhn/repro-book/
