@@ -10,5 +10,33 @@
   "commit": true,
   "commitConvention": "none",
   "contributorsPerLine": 7,
-  "commitType": "docs"
+  "commitType": "docs",
+  "contributors": [
+    {
+      "login": "lnnrtwttkhn",
+      "name": "Lennart Wittkuhn",
+      "avatar_url": "https://avatars.githubusercontent.com/u/42233065?v=4",
+      "profile": "https://lennartwittkuhn.com",
+      "contributions": [
+        "bug",
+        "code",
+        "content",
+        "doc",
+        "design",
+        "financial",
+        "fundingFinding",
+        "ideas",
+        "infra",
+        "maintenance",
+        "mentoring",
+        "projectManagement",
+        "promotion",
+        "question",
+        "research",
+        "review",
+        "security",
+        "talk"
+      ]
+    }
+  ]
 }
