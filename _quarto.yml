@@ -86,9 +86,6 @@ citations-hover: true
 citation-location: document
 citeproc: true
 from: markdown+emoji
-keywords:
-  - reproducibility
-  - open science
 license: CC BY
 
 format:
