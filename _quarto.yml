@@ -97,7 +97,7 @@ format:
     smooth-scroll: true
     toc-expand: 2
     page-layout: full
-    title-block-style: none
+    title-block-style: default
     code-fold: false
     code-overflow: wrap
     code-copy: true

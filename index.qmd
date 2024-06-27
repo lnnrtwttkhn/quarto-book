@@ -1,3 +1,9 @@
+---
+metadata-files:
+  - _authors.yml
+  - _affiliations.yml
+---
+
 # Preface {.unnumbered}
 
 This is a Quarto book.
