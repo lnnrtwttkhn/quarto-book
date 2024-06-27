@@ -1,0 +1,111 @@
+project:
+  type: book
+  execute-dir: project
+  output-dir: _book
+  preview: 
+    port: 7777
+    host: 127.0.0.1
+    browser: true
+    watch-inputs: true
+    navigate: true
+
+book:
+  # book:
+  title: "The Repro Book"
+  subtitle: "A Guide to Reproducible Research"
+  # favicon: static/logo.svg
+  site-url: https://lennartwittkuhn.com/repro-book/
+  repo-url: https://github.com/lnnrtwttkhn/repro-book/
+  repo-branch: main
+  issue-url: https://github.com/lnnrtwttkhn/repro-book/issues
+  repo-actions: [edit, issue, source]
+  page-navigation: true
+  back-to-top-navigation: true
+  search: true
+  twitter-card: false
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+  sidebar:
+    id: sidebar
+    title: "{{< var project.title >}}"
+    # logo: static/logo.svg
+    search: true
+    tools:
+      - icon: globe
+        href: https://lennartwittkuhn.com/repro-book/
+      - icon: bug
+        href: https://github.com/lnnrtwttkhn/repro-book/
+    style: floating
+    type: light
+    border: false
+    alignment: center
+    collapse-level: 2
+    pinned: true
+    footer: |
+      [![Website](https://img.shields.io/website?url=https%3A%2F%2Flennartwittkuhn.com%2Frepro-book%2F)]({{< var project.site-url >}})
+      [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+      [![Codespell]({{< var project.repo-url >}}/actions/workflows/codespell.yml/badge.svg)]({{< var project.repo-url >}}/actions/workflows/codespell.yml)
+      [![All Contributors](https://img.shields.io/github/all-contributors/projectOwner/projectName?color=ee8449&style=flat-square)]({{< var project.contributors-url >}})
+  page-footer:
+    left: |
+      &copy; {{< var project.duration >}} [{{< var project.title >}} Team]({{< var project.contributors-url >}})
+    # center:
+    #   - text: "Acknowledgements"
+    #     href: misc/acknowledgements.qmd
+    right: |
+      License: {{< var project.license-short >}}
+    border: false
+    background: light
+
+toc: true
+toc-depth: 3
+toc-location: right
+toc-title: "Contents"
+number-sections: true
+number-depth: 4
+cap-location: bottom
+code-line-numbers: true
+code-annotations: below
+highlight-style: monokai
+execute:
+  eval: false
+  echo: false
+  output: true
+  warning: false
+  error: false
+  cache: false
+  freeze: false
+reference-location: document  
+lang: en-US  
+bibliography: references.bib
+citations-hover: true
+citation-location: document
+citeproc: true
+from: markdown+emoji
+keywords:
+  - reproducibility
+  - open science
+license: CC BY
+
+format:
+  html:
+    theme: [default, custom.scss]
+    anchor-sections: true
+    smooth-scroll: true
+    toc-expand: 2
+    page-layout: full
+    title-block-style: default
+    code-fold: false
+    code-overflow: wrap
+    code-copy: true
+    code-link: false
+    code-tools: false
+    link-external-newwindow: true
+    footnotes-hover: true
+    include-after-body: plausible.html
+  pdf:
+    lof: true
+    lot: true

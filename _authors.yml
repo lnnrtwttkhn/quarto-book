@@ -1,0 +1,11 @@
+authors:
+  - id: wittkuhn
+    name:
+      given: Lennart
+      family: Wittkuhn
+      literal: Lennart Wittkuhn
+    url: https://lennartwittkuhn.com/
+    email: lennart.wittkuhn@uni-hamburg.de
+    orcid: 0000-0003-2966-6888
+    affiliations:
+      - ref: uhh-psych
