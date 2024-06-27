@@ -1,0 +1,24 @@
+---
+listing:
+  id: chapters-listings
+  type: default
+  contents: chapters
+  sort: false
+  image-align: right
+  # image-placeholder: static/logo.svg
+  max-description-length: 1000
+  date-format: long
+  categories: numbered
+  feed: false
+  fields: [title, subtitle, description, image, image-alt, reading-time, categories, file-modified]
+  sort-ui: [default, file-modified, reading-time]
+  filter-ui: true
+  page-size: 25
+---
+
+# Contents {.unnumbered}
+
+The estimate of the **reading time** for each chapter is computed by counting the words in the chapter and assuming a reading speed of 200 words per minute.
+
+::: {#chapters-listings}
+:::

@@ -25,6 +25,7 @@ book:
   twitter-card: false
   chapters:
     - index.qmd
+    - contents.qmd
     - intro.qmd
     - summary.qmd
     - references.qmd
