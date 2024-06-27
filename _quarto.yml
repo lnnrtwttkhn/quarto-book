@@ -107,6 +107,3 @@ format:
     link-external-newwindow: true
     footnotes-hover: true
     include-after-body: plausible.html
-  pdf:
-    lof: true
-    lot: true

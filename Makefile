@@ -11,6 +11,10 @@ preview:
 .PHONY: render
 render: clean images
 	quarto render
+
+.PHONY: pdf
+pdf: clean images
+	quarto render --profile pdf
 	
 .PHONY: deploy
 deploy: clean images

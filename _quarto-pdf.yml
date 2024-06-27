@@ -1,0 +1,4 @@
+format:
+  pdf:
+    lof: true
+    lot: true
