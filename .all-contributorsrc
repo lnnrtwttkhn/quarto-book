@@ -1,0 +1,14 @@
+{
+  "projectName": "repro-book",
+  "projectOwner": "lnnrtwttkhn",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "commitConvention": "none",
+  "contributorsPerLine": 7,
+  "commitType": "docs"
+}
