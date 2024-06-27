@@ -71,14 +71,6 @@ cap-location: bottom
 code-line-numbers: false
 code-annotations: below
 highlight-style: monokai
-execute:
-  eval: false
-  echo: false
-  output: true
-  warning: false
-  error: false
-  cache: false
-  freeze: false
 reference-location: document  
 lang: en-US  
 bibliography: references.bib
