@@ -68,7 +68,7 @@ toc-title: "Contents"
 number-sections: true
 number-depth: 4
 cap-location: bottom
-code-line-numbers: true
+code-line-numbers: false
 code-annotations: below
 highlight-style: monokai
 execute:
