@@ -19,3 +19,11 @@ project:
   website-badge: "[![Website](https://img.shields.io/website?url=https%3A%2F%2Flennartwittkuhn.com%2Frepro-book%2F)]({{< var project.site-url >}})"
   codespell-badge: "[![Codespell]({{< var project.repo-url >}}/actions/workflows/codespell.yml/badge.svg)]({{< var project.repo-url >}}/actions/workflows/codespell.yml)"
   all-contributors-badge: "[![All Contributors](https://img.shields.io/github/all-contributors/projectOwner/projectName?color=ee8449&style=flat-square)]({{< var project.contributors-url >}})"
+links:
+  uhh: "https://www.uni-hamburg.de/en.html"
+  uhh-ddlitlab: "https://www.isa.uni-hamburg.de/en/ddlitlab.html"
+  uhh-isa: "https://www.isa.uni-hamburg.de/"
+  stiftung-hochschullehre: "https://stiftung-hochschullehre.de/en/"
+  funding-info: "https://stiftung-hochschullehre.de/projekt/ddlitlab/"
+  plausible: "https://plausible.io/"
+  quarto: "https://quarto.org/"
