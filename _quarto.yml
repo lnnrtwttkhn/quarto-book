@@ -17,5 +17,3 @@ format:
   html:
     theme: cosmo
     include-after-body: plausible.html
-  pdf:
-    documentclass: scrreprt
