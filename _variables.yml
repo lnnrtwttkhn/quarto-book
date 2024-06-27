@@ -12,3 +12,6 @@ project:
   license-short: "[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)"
   license-badge: "[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)"
   duration: "2024 -- 2025"
+  website-badge: "[![Website](https://img.shields.io/website?url=https%3A%2F%2Flennartwittkuhn.com%2Frepro-book%2F)]({{< var project.site-url >}})"
+  codespell-badge: "[![Codespell]({{< var project.repo-url >}}/actions/workflows/codespell.yml/badge.svg)]({{< var project.repo-url >}}/actions/workflows/codespell.yml)"
+  all-contributors-badge: "[![All Contributors](https://img.shields.io/github/all-contributors/projectOwner/projectName?color=ee8449&style=flat-square)]({{< var project.contributors-url >}})"
