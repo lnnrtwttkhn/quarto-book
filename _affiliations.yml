@@ -1,0 +1,10 @@
+affiliations:
+  - id: uhh-psych
+    name: "University of Hamburg, Institute of Psychology"
+    department: "Institute of Psychology"
+    address: "Von-Melle-Park 5"
+    city: "Hamburg"
+    region: "Hamburg"
+    country: "Germany"
+    postal-code: "20146"
+    url: "https://www.psy.uni-hamburg.de/en.html"
