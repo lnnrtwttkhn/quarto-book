@@ -1,0 +1,53 @@
+---
+engine: knitr
+execute:
+  eval: false
+---
+
+# Acknowledgements {.unnumbered}
+
+## Funding
+
+This work is funded by the [Digital and Data Literacy in Teaching Lab (DDLitLab)]({{< var links.uhh-ddlitlab >}}), an initiative by the Center for Interdisciplinary Study Programs (Zentrum für Interdisziplinäre Studienangebote; [ISA-Zentrum]({{< var links.uhh-isa >}})) at the [University of Hamburg]({{< var links.uhh >}}), Germany.
+The Digital and Data Literacy in Teaching Lab program is in turn funded by the [Stiftung Innovation in der Hochschullehre]({{< var links.stiftung-hochschullehre >}}) (details about the funding program can be found [here]({{< var links.funding-info >}})).
+
+## Code
+
+This website is made with [Quarto]({{< var links.quarto >}}).
+The source code of this website can be found [on {{< var project.repo-host >}}]({{< var project.repo-url >}}).
+
+## Images
+
+Images are stored on [Nextcloud]({{< var project.images-url >}}) (UHH Cloud).
+They can be retrieved using 
+
+```{zsh filename="Code"}
+make images
+```
+
+<details>
+<summary>Click here to view the full `Makefile` of this project.</summary>
+```{make filename="Makefile"}
+#| file: Makefile
+#| code-line-numbers: true
+```
+</details>
+
+## Analytics
+
+We use [Plausible]({{< var links.plausible >}}) for website analytics.
+Plausible is an "intuitive, lightweight and open source web analytics", does not use cookies and is fully compliant with GDPR, CCPA and PECR.
+
+## License
+
+All contents are licensed under a {{< var project.license-long >}} license, unless indicated otherwise.
+
+## Contact
+
+Did you spot an error?
+Is there an issue with the website?
+Do you have feedback, questions or comments?
+We would love to hear from you!
+Please open an [issue on {{< var project.repo-host >}}]({{< var project.issue-url >}}) or send an [email]({{< var project.mailto >}}).
+Thank you!
+

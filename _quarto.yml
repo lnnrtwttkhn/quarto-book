@@ -28,6 +28,7 @@ book:
     - intro.qmd
     - summary.qmd
     - references.qmd
+    - acknowledgements.qmd
   sidebar:
     id: sidebar
     title: "{{< var project.title >}}"
@@ -53,9 +54,9 @@ book:
   page-footer:
     left: |
       &copy; {{< var project.duration >}} [{{< var project.title >}} Team]({{< var project.contributors-url >}})
-    # center:
-    #   - text: "Acknowledgements"
-    #     href: misc/acknowledgements.qmd
+    center:
+      - text: "Acknowledgements"
+        href: acknowledgements.qmd
     right: |
       License: {{< var project.license-short >}}
     border: false
