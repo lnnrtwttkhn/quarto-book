@@ -1,15 +1,66 @@
 project:
   type: book
+  execute-dir: project
+  output-dir: _book
+  preview: 
+    port: 7777
+    host: 127.0.0.1
+    browser: true
+    watch-inputs: true
+    navigate: true
 
 book:
-  title: "repro-book"
-  author: "Norah Jones"
-  date: "6/27/2024"
+  # book:
+  title: "The Repro Book"
+  subtitle: "A Guide to Reproducible Research"
+  description: "The Repro Book - A Guide to Reproducible Research"
+  # favicon: static/logo.svg
+  site-url: https://lennartwittkuhn.com/repro-book/
+  repo-url: https://github.com/lnnrtwttkhn/repro-book/
+  repo-branch: main
+  issue-url: https://github.com/lnnrtwttkhn/repro-book/issues
+  repo-actions: [edit, issue, source]
+  page-navigation: true
+  back-to-top-navigation: true
+  search: true
+  twitter-card: false
   chapters:
     - index.qmd
     - intro.qmd
     - summary.qmd
     - references.qmd
+  sidebar:
+    id: sidebar
+    title: "{{< var project.title >}}"
+    # logo: static/logo.svg
+    search: true
+    tools:
+      - icon: globe
+        href: "{{< var project.title >}}"
+      - icon: bug
+        href: "{{< var project.issues >}}"
+    style: floating
+    background: light
+    type: light
+    border: false
+    alignment: center
+    collapse-level: 2
+    pinned: true
+    header: |
+      ![Website](https://img.shields.io/website?url=https%3A%2F%2Flennartwittkuhn.com%2Frepro-book%2F)
+      [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+      [![Codespell](https://github.com/lnnrtwttkhn/repo-book/actions/workflows/codespell.yml/badge.svg)](https://github.com/lnnrtwttkhn/repro-book/actions/workflows/codespell.yml)
+      [![All Contributors](https://img.shields.io/github/all-contributors/projectOwner/projectName?color=ee8449&style=flat-square)](#contributors)
+  page-footer:
+    left: |
+      &copy; {{< var project.duration >}} [{{< var project.title >}} Team]({{< var project.contributors-ur >}})
+    # center:
+    #   - text: "Acknowledgements"
+    #     href: misc/acknowledgements.qmd
+    right: |
+      License: [CC BY 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+    border: false
+    background: light
 
 bibliography: references.bib
 
