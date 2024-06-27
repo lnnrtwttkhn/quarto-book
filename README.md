@@ -1,8 +1,8 @@
 # The Repro Book
 
-![Website](https://img.shields.io/website?url=https%3A%2F%2Flennartwittkuhn.com%2Frepro-book%2F)
+[![Website](https://img.shields.io/website?url=https%3A%2F%2Flennartwittkuhn.com%2Frepro-book%2F)](https://lennartwittkuhn.com/repro-book/)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![Codespell](https://github.com/lnnrtwttkhn/repo-book/actions/workflows/codespell.yml/badge.svg)](https://github.com/lnnrtwttkhn/repro-book/actions/workflows/codespell.yml)
+[![Codespell](https://github.com/lnnrtwttkhn/repro-book/actions/workflows/codespell.yml/badge.svg)](https://github.com/lnnrtwttkhn/repro-book/actions/workflows/codespell.yml)
 [![All Contributors](https://img.shields.io/github/all-contributors/projectOwner/projectName?color=ee8449&style=flat-square)](#contributors)
 
 ## Description
