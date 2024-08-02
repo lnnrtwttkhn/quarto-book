@@ -1,0 +1,112 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "The Quarto Book",
+    "section": "",
+    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n1 + 1\n\n[1] 2",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "contents.html",
+    "href": "contents.html",
+    "title": "Contents",
+    "section": "",
+    "text": "The estimate of the reading time for each chapter is computed by counting the words in the chapter and assuming a reading speed of 200 words per minute.\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Modified - Oldest\n        \n         \n          Modified - Newest\n        \n         \n          Reading Time (Low to High)\n        \n         \n          Reading Time (High to Low)\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nIntroduction\n\n\n\n\n\n\n\n\n\n\n\n1 min\n\n\nAugust 2, 2024\n\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "Contents"
+    ]
+  },
+  {
+    "objectID": "chapters/intro.html",
+    "href": "chapters/intro.html",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "2  Summary",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Summary</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "References"
+    ]
+  },
+  {
+    "objectID": "acknowledgements.html",
+    "href": "acknowledgements.html",
+    "title": "Acknowledgements",
+    "section": "",
+    "text": "Funding\nThis project is funded by the “Claussen-Simon-Fund for Science & Higher Education 2024” by the Claussen-Simon-Foundation, in Hamburg, Germany.\nThe project is also partly supported by the Digital and Data Literacy in Teaching Lab (DDLitLab), an initiative by the Center for Interdisciplinary Study Programs (Zentrum für Interdisziplinäre Studienangebote; ISA-Zentrum) at the University of Hamburg, Germany. The Digital and Data Literacy in Teaching Lab program is in turn funded by the Stiftung Innovation in der Hochschullehre (details about the funding program can be found here).",
+    "crumbs": [
+      "Acknowledgements"
+    ]
+  },
+  {
+    "objectID": "acknowledgements.html#code",
+    "href": "acknowledgements.html#code",
+    "title": "Acknowledgements",
+    "section": "Code",
+    "text": "Code\nThis website is made with Quarto. The source code of this website can be found on GitHub.",
+    "crumbs": [
+      "Acknowledgements"
+    ]
+  },
+  {
+    "objectID": "acknowledgements.html#images",
+    "href": "acknowledgements.html#images",
+    "title": "Acknowledgements",
+    "section": "Images",
+    "text": "Images\nImages are stored on Nextcloud (UHH Cloud). They can be retrieved using\n\n\n\nCode\n\nmake images\n\n\n\n\nClick here to view the full Makefile of this project.\n\n\n\n\nMakefile\n\nIMAGES_URL=https://cloud.uni-hamburg.de/s/xxswokojCCN49em/download\nIMAGES_ARCHIVE=quarto-book-images.zip\nIMAGES_DIR=images/\n\nall: render\n\n.PHONY: preview\npreview:\n    quarto preview\n\n.PHONY: render\nrender: clean images\n    quarto render\n\n.PHONY: pdf\npdf: clean images\n    quarto render --profile pdf\n    \n.PHONY: deploy\ndeploy: clean images\n    quarto publish gh-pages\n\n.PHONY: images\nimages:\n    wget $(IMAGES_URL) -O $(IMAGES_ARCHIVE)\n    unzip -j -o $(IMAGES_ARCHIVE) -d $(IMAGES_DIR)\n    rm -f $(IMAGES_ARCHIVE)\n\n.PHONY: clean\nclean:\n    rm -rf $(IMAGES_DIR)* _book/",
+    "crumbs": [
+      "Acknowledgements"
+    ]
+  },
+  {
+    "objectID": "acknowledgements.html#analytics",
+    "href": "acknowledgements.html#analytics",
+    "title": "Acknowledgements",
+    "section": "Analytics",
+    "text": "Analytics\nWe use Plausible for website analytics. Plausible is an “intuitive, lightweight and open source web analytics”, does not use cookies and is fully compliant with GDPR, CCPA and PECR.",
+    "crumbs": [
+      "Acknowledgements"
+    ]
+  },
+  {
+    "objectID": "acknowledgements.html#license",
+    "href": "acknowledgements.html#license",
+    "title": "Acknowledgements",
+    "section": "License",
+    "text": "License\nAll contents are licensed under a Creative Commons Attribution 4.0 International (CC BY 4.0) license, unless indicated otherwise.",
+    "crumbs": [
+      "Acknowledgements"
+    ]
+  },
+  {
+    "objectID": "acknowledgements.html#contact",
+    "href": "acknowledgements.html#contact",
+    "title": "Acknowledgements",
+    "section": "Contact",
+    "text": "Contact\nDid you spot an error? Is there an issue with the website? Do you have feedback, questions or comments? We would love to hear from you! Please open an issue on GitHub or send an email. Thank you!",
+    "crumbs": [
+      "Acknowledgements"
+    ]
+  }
+]
