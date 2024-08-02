@@ -11,6 +11,47 @@
 Welcome to the Repro Book, an open-source online learning resource on reproducible research.
 The main goal of the Repro Book is to provide a companion online course text book for courses on reproducible research.
 
+## Setup
+
+This project uses [`renv`](https://rstudio.github.io/renv/articles/renv.html) for dependency management.
+
+After you cloned the repo and open the project in RStudio, the following message should appear in your R Console:
+
+```R
+# Bootstrapping renv 1.0.0 ---------------------------------------------------
+- Downloading renv ... OK
+- Installing renv  ... OK
+
+- Project '~/quarto-book' loaded. [renv 1.0.0]
+- The project is out-of-sync -- use `renv::status()` for details.
+```
+
+Run `renv::restore()` to update the required R packages:
+
+```r
+renv::restore()
+The following package(s) will be updated:
+
+# CRAN -----------------------------------------------------------------------
+- rmarkdown   [repo: RSPM -> CRAN; ver: 2.24 -> 2.21]
+- stringr     [repo: RSPM -> CRAN; ver: 1.5.1 -> 1.5.0]
+- vctrs       [repo: RSPM -> CRAN; ver: 0.6.5 -> 0.6.2]
+```
+
+When you are asked if you want to proceed, enter `Y`:
+
+```r
+Do you want to proceed? [Y/n]: Y
+
+# Installing packages --------------------------------------------------------
+
+- Installing vctrs ...                          OK [linked from cache in 0.00026s]
+- Installing stringr ...                        OK [linked from cache in 0.00018s]
+- Installing rmarkdown ...                      OK [linked from cache in 0.00021s]
+```
+
+Done!
+
 ## License
 
 [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.en)
