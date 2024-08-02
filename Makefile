@@ -1,5 +1,5 @@
-IMAGES_URL=https://cloud.uni-hamburg.de/s/pzEHT5DF3PzFdLH/download
-IMAGES_ARCHIVE=repro-book-images.zip
+IMAGES_URL=https://cloud.uni-hamburg.de/s/xxswokojCCN49em/download
+IMAGES_ARCHIVE=quarto-book-images.zip
 IMAGES_DIR=images/
 
 all: render
