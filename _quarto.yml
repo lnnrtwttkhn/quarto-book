@@ -14,10 +14,10 @@ book:
   title: "The Repro Book"
   subtitle: "A Guide to Reproducible Research"
   # favicon: static/logo.svg
-  site-url: https://lennartwittkuhn.com/repro-book/
-  repo-url: https://github.com/lnnrtwttkhn/repro-book/
+  site-url: https://lennartwittkuhn.com/quarto-book/
+  repo-url: https://github.com/lnnrtwttkhn/quarto-book/
   repo-branch: main
-  issue-url: https://github.com/lnnrtwttkhn/repro-book/issues
+  issue-url: https://github.com/lnnrtwttkhn/quarto-book/issues
   repo-actions: [edit, issue, source]
   page-navigation: true
   back-to-top-navigation: true
@@ -37,9 +37,9 @@ book:
     search: true
     tools:
       - icon: globe
-        href: https://lennartwittkuhn.com/repro-book/
+        href: https://lennartwittkuhn.com/quarto-book/
       - icon: bug
-        href: https://github.com/lnnrtwttkhn/repro-book/
+        href: https://github.com/lnnrtwttkhn/quarto-book/
     style: floating
     type: light
     border: false
@@ -47,7 +47,7 @@ book:
     collapse-level: 2
     pinned: true
     footer: |
-      [![Website](https://img.shields.io/website?url=https%3A%2F%2Flennartwittkuhn.com%2Frepro-book%2F)]({{< var project.site-url >}})
+      [![Website](https://img.shields.io/website?url=https%3A%2F%2Flennartwittkuhn.com%2Fquarto-book%2F)]({{< var project.site-url >}})
       [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
       [![Quarto Publish]({{< var project.repo-url >}}/actions/workflows/publish.yml/badge.svg)]({{< var project.repo-url >}}/actions/workflows/publish.yml)
       [![Codespell]({{< var project.repo-url >}}/actions/workflows/codespell.yml/badge.svg)]({{< var project.repo-url >}}/actions/workflows/codespell.yml)
