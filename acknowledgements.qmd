@@ -8,7 +8,9 @@ execute:
 
 ## Funding
 
-This work is funded by the [Digital and Data Literacy in Teaching Lab (DDLitLab)]({{< var links.uhh-ddlitlab >}}), an initiative by the Center for Interdisciplinary Study Programs (Zentrum für Interdisziplinäre Studienangebote; [ISA-Zentrum]({{< var links.uhh-isa >}})) at the [University of Hamburg]({{< var links.uhh >}}), Germany.
+This project is funded by the ["Claussen-Simon-Fund for Science & Higher Education 2024"]({{< var links.claussen-simon-fund >}}) by the [Claussen-Simon-Foundation]({{< var links.claussen-simon-foundation >}}), in Hamburg, Germany.
+
+The project is also partly supported by the [Digital and Data Literacy in Teaching Lab (DDLitLab)]({{< var links.uhh-ddlitlab >}}), an initiative by the Center for Interdisciplinary Study Programs (Zentrum für Interdisziplinäre Studienangebote; [ISA-Zentrum]({{< var links.uhh-isa >}})) at the [University of Hamburg]({{< var links.uhh >}}), Germany.
 The Digital and Data Literacy in Teaching Lab program is in turn funded by the [Stiftung Innovation in der Hochschullehre]({{< var links.stiftung-hochschullehre >}}) (details about the funding program can be found [here]({{< var links.funding-info >}})).
 
 ## Code
@@ -50,4 +52,3 @@ Do you have feedback, questions or comments?
 We would love to hear from you!
 Please open an [issue on {{< var project.repo-host >}}]({{< var project.issue-url >}}) or send an [email]({{< var project.mailto >}}).
 Thank you!
-
