@@ -1,4 +1,4 @@
-# The Repro Book
+# The Quarto Book
 
 [![Website](https://img.shields.io/website?url=https%3A%2F%2Flennartwittkuhn.com%2Fquarto-book%2F)](https://lennartwittkuhn.com/quarto-book/)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
@@ -8,8 +8,8 @@
 
 ## Description
 
-Welcome to the Repro Book, an open-source online learning resource on reproducible research.
-The main goal of the Repro Book is to provide a companion online course text book for courses on reproducible research.
+Welcome to the Quarto Book, an open-source online learning resource about [Quarto](https://quarto.org/).
+The main goal of the Quarto Book is to provide a companion online course text book for courses on Quarto.
 
 ## Setup
 

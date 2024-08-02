@@ -11,8 +11,8 @@ project:
 
 book:
   # book:
-  title: "The Repro Book"
-  subtitle: "A Guide to Reproducible Research"
+  title: "The Quarto Book"
+  subtitle: "A Guide to Quarto"
   # favicon: static/logo.svg
   site-url: https://lennartwittkuhn.com/quarto-book/
   repo-url: https://github.com/lnnrtwttkhn/quarto-book/

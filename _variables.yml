@@ -1,8 +1,8 @@
 project:
   name: "quarto-book"
-  title: "The Repro Book"
-  subtitle: "A Guide to Reproducible Research"
-  description: "The Repro Book - A Guide to Reproducible Research"
+  title: "The Quarto Book"
+  subtitle: "A Guide to Quarto"
+  description: "The Quarto Book - A Guide to Quarto"
   email: "lennart.wittkuhn@uni-hamburg.de"
   mailto: "mailto:{{< var project.email >}}"
   site-url: "https://lennartwittkuhn.com/{{< var project.name >}}"
