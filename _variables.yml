@@ -11,7 +11,7 @@ project:
   issue-url: "{{< var project.repo-url >}}/issues"
   new-issue-url: "{{< var project.repo-url >}}/issues/new"
   contributors-url: "{{< var project.repo-url >}}?tab=readme-ov-file#contributors"
-  images-url: "https://cloud.uni-hamburg.de/s/pzEHT5DF3PzFdLH"
+  images-url: "https://cloud.uni-hamburg.de/s/xxswokojCCN49em"
   license-long: "Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))"
   license-short: "[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)"
   license-badge: "[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)"
