@@ -1,4 +1,5 @@
-### Here, I share my thoughts on how to implement the 10 rules in the paper by Garcia et al. (2020)
+### Garcia et al. (2020)
+Here, I share my thoughts on how to implement the 10 rules in the paper by Garcia et al. (2020)
 
 ## Rule 1: Plan to share your training materials online
 
