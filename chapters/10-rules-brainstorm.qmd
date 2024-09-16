@@ -1,0 +1,22 @@
+### Garcia et al. (2020)
+Here, I share my thoughts on how to implement the 10 rules in the paper by Garcia et al. (2020)
+
+## Rule 1: Plan to share your training materials online
+
+- Git would be the ideal platform to share the materials
+
+## Rule 3: Give your training materials a unique identity
+- Use a DOI
+
+## Rule 4: Register your training materials online
+- The paper suggests specific communities to target in life sciences when registering materials online. Do we have such communities in psychology for instance? Since we are not focusing merely on psychology, which communities can we register our materials to target our specific audience?
+
+## Rule 5: Define access rules for your training materials
+- Since we want to generalize the application of these rules, I guess we will proceed with the open access policy.
+- Free and public
+
+## Rule 6: Use an interoperable format for your training materials
+- Obviously, we use Quarto and Git to maintain the interoperability. I was thinking if it is possible to create a feedback loop, which transforms simple inputs into GitHub issues. For instance, we can create a contact form or an issue reporting page in our book, which collects feedbacks on different parts of the book. Then, this feedback is transformed into Git issues shown in our repository. I don't know if it is possible, but it would be cool! By doing so, those who are not familiar with Git will also be able to help us out and keep the materials interoperable.
+
+## Rule 7: Make your training materials (re)usable for trainers / Rule 8: Make your training materials usable for trainees
+- The table on the paper is very useful. I think you and Konrad did implement all of this in the Git course.
