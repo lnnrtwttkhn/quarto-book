@@ -5,3 +5,19 @@
 /.quarto/
 /images/
 /_book/
+<<<<<<< Updated upstream
+=======
+/chapters/how-to-code_files/libs/bootstrap
+/chapters/how-to-code_files/libs/clipboard
+/chapters/how-to-code_files/libs/quarto-html
+chapters/10-rules-brainstorm.html
+chapters/10-rules-brainstorm.html
+chapters/10-rules-brainstorm.html
+chapters/10-rules-brainstorm.html
+chapters/10-rules-brainstorm.html
+chapters/10-rules-brainstorm.html
+chapters/10-rules-brainstorm.html
+chapters/create_dataframe.qmd
+chapters/10-rules-brainstorm.html
+chapters/script.R
+>>>>>>> Stashed changes
