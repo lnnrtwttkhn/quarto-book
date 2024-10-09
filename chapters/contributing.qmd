@@ -1,0 +1,97 @@
+---
+engine: knitr
+execute:
+  eval: false
+---
+
+# Contributing
+
+## Images
+
+### Background
+
+Images are stored on [UHH Cloud]({{< var project.images-url >}}) (based on [Nextcloud]({{< var links.nextcloud >}})).
+They are downloaded into the `/images` folder using the command specified in the `Makefile`.
+
+### Installation
+
+You need to install the following software:
+
+1. [GNU Make](https://www.gnu.org/software/make/)
+1. [curl](https://curl.se/)
+
+These tools might already be installed on your system.
+Click on the box below for instructions for your operating system:
+
+:::: {.callout-tip title="Installation on different operating systems" collapse="true"}
+
+::: {.panel-tabset}
+
+## {{< fa brands apple >}}
+
+1. **Prerequisite:** Install [Homebrew](https://brew.sh/)
+
+```{zsh filename="Code"}
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+2. After you installed Homebrew, install [GNU Wget](https://www.gnu.org/software/wget/)
+
+```{zsh filename="Code"}
+brew install wget
+````
+
+[GNU Make](https://www.gnu.org/software/make/) should already be installed.
+Try by entering the following command into the Terminal:
+
+```{zsh filename="Code"}
+make --version
+```
+
+## {{< fa brands windows >}}
+
+TBA
+
+## {{< fa brands linux >}}
+
+TBA
+
+:::
+
+::::
+
+### Retrieve images
+
+To access the images in the project directory, they need to be downloaded into the project folder.
+For convenience, we provide a `make` command (using [GNU Make]({{< var links.gnu-make >}})):
+
+```{zsh filename="Code"}
+make images
+```
+
+::: {.callout-tip title="What is a Makefile and what does it do?" collapse="true"}
+
+```{bash, filename="Makefile"}
+#| file: Makefile
+#| code-line-numbers: true
+```
+
+:::
+
+### Add a new image
+
+1. Become a collaborator on the [UHH Cloud folder]({{< var project.images-url >}}).
+1. Go to the [UHH Cloud folder]({{< var project.images-url >}}).
+1. Place the new image inside the folder.
+Please use `-` to separate word in the filename.
+1. Reference the image in the Quarto document relative to the root of the project directory:
+
+```{markdown}
+![](static/NEW-IMAGE.png)
+```
+
+### Download images in pre-render command
+
+It's also possible to include the `make static` as a project script in the `pre-render` script.
+This would re-execute `make static` before every render.
+For the moment, we disabled this option, but it can be enabled in `_quarto.yml`.
