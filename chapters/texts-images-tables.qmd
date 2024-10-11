@@ -1,0 +1,106 @@
+---
+title: "Texts, Images, and Tables"
+---
+
+### Text Formatting
+
+First and foremost, Quarto is a publishing system. Therefore, it has the flexibility to format text in various ways. It is possible to write in visual or source modes. In visual editor no syntax is involved to change the style of text, as opposed to, source. Below you can see the tables that introduce the syntax related to a specific style such as bold, italic, etc.
+
+#### Bold, Italic, and more...
+
++------------------------------------------------------------------+------------------------------------------------------------------+
+| Syntax                                                           | Output                                                           |
++==================================================================+==================================================================+
+| ``` markdown                                                     | *Pizza* **never** texts ***back***.                              |
+| *Pizza* **never** texts ***back***.                              |                                                                  |
+| ```                                                              |                                                                  |
++------------------------------------------------------------------+------------------------------------------------------------------+
+| ``` markdown                                                     | E=mc^2^ — my ex~2~cuse for eating dessert ~~twice~~ three times! |
+| E=mc^2^ — my ex~2~cuse for eating dessert ~~twice~~ three times! |                                                                  |
+| ```                                                              |                                                                  |
++------------------------------------------------------------------+------------------------------------------------------------------+
+| ``` markdown                                                     | `verbatim code`                                                  |
+| `verbatim code`                                                  |                                                                  |
+| ```                                                              |                                                                  |
++------------------------------------------------------------------+------------------------------------------------------------------+
+
+### Headings
+
++-----------------+-----------------------------------+
+| Markdown        | Output                            |
++=================+===================================+
+| ``` markdown    | # Header 1 {.heading-output}      |
+| # Header 1      |                                   |
+| ```             |                                   |
++-----------------+-----------------------------------+
+| ``` markdown    | ## Header 2 {.heading-output}     |
+| ## Header 2     |                                   |
+| ```             |                                   |
++-----------------+-----------------------------------+
+| ``` markdown    | ### Header 3 {.heading-output}    |
+| ### Header 3    |                                   |
+| ```             |                                   |
++-----------------+-----------------------------------+
+| ``` markdown    | #### Header 4 {.heading-output}   |
+| #### Header 4   |                                   |
+| ```             |                                   |
++-----------------+-----------------------------------+
+| ``` markdown    | ##### Header 5 {.heading-output}  |
+| ##### Header 5  |                                   |
+| ```             |                                   |
++-----------------+-----------------------------------+
+| ``` markdown    | ###### Header 6 {.heading-output} |
+| ###### Header 6 |                                   |
+| ```             |                                   |
++-----------------+-----------------------------------+
+
+### Links 
+
+Links can be added to a Quarto document by simply using <https://quarto.org>. To link a word, the following syntax is used:
+``` markdown
+[Quarto Website](<https://quarto.org>)
+```
+[Quarto Website](<https://quarto.org>)
+
+### Tables
+
+To draw a table on Quarto, you should draw a table! Let's find out with an example:
+
+``` markdown
+| Fruits | Animals|  Trees |
+|:------:|:-------|-------:|
+| Orange |  Tiger |Sequoia |
+| Apple  |Dolphin | Cedar  |
+| Banana |  Wolf  | Pine   |
+```
+
+| Fruits | Animals|  Trees |
+|:------:|:-------|-------:|
+| Orange |  Tiger |Sequoia |
+| Apple  |Dolphin | Cedar  |
+| Banana |  Wolf  | Pine   |
+
+As you see, adding `:` to the left,  right or both sides of the dashes will affect the alignment of a column. For further customization options regarding tables see [Quarto's documentation](https://quarto.org/docs/authoring/tables.html) on tables.
+
+### Images
+
+In the simplest form, images can be added to a Quarto document by using 
+``` markdown 
+![Description](image address)
+```
+![Photo by Michael Baccin on Unsplash](..\images\Yellow House.jpg)
+
+Images can also be turned into links. It is basically combining the syntax of an image and a link together:
+``` markdown 
+[![Description](image address)](Link)
+```
+[![Photo by Kiarash Mansouri on Unsplash](..\images\Up.jpg)](https://unsplash.com/photos/a-yellow-house-with-a-mountain-in-the-background-ZcIquAS0T-I)
+
+
+For better accessibility, it is possible and recommended to add alt text to the images.
+
+``` markdown 
+[![Description](image address){fig-alt="Alt text"}](Link)
+``` 
+
+[![Photo by Anita Austvika on Unsplash](..\images\Vase.jpg){fig-alt="A vase with yellow, red, purple and white flowers."}](https://unsplash.com/photos/a-white-pitcher-filled-with-flowers-on-top-of-a-table-6hZbcPBdyek)
