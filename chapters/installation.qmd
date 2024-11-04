@@ -8,25 +8,25 @@ This chapter helps you with installation process.
 
 Quarto is free to use and available for download on [Quarto's website](quarto.org). The very first step is to download Quarto. On the homepage there is button labeled as `Get Started`. Click on it and navigate to the new page in which there are download links. Download Quarto based on your operating system. It is compatible with {{< fa brands apple >}} Mac, {{< fa brands microsoft >}} Windows, {{< fa brands ubuntu >}} Ubuntu and {{< fa brands linux >}} Linux.
 
-![](images/Quarto_Installation_1.jpg)
+![](../images/Quarto_Installation_1.jpg)
 
-![](images/Quarto_Installation_2.1.jpg)
+![](../images/Quarto_Installation_2.1.jpg)
 
 ## Install Quarto
 
 Go to the directory in which Quarto is downloaded and double-click on it to start the installation process. During the installation process, you’ll be presented with various options and settings. We recommend to leave all settings to their standard configuration, unless you have a specific need to e.g. change the installation destination.
 
-![](images/Quarto_Installation_3.jpg){width="300"}
+![](../images/Quarto_Installation_3.jpg){width="300"}
 
-![](images/Quarto_Installation_4.jpg){width="300"}
+![](../images/Quarto_Installation_4.jpg){width="300"}
 
 Once you have finished selecting your preference, click the install button to begin the installation process.
 
-![](images/clipboard-3674821085.jpeg){width="300"}
+![](../images/clipboard-3674821085.jpeg){width="300"}
 
 The installer will copy the necessary files and set up Quarto on your system. Once the installation is complete, you’ll see a “Finish” button and a text that tells you to "restart any existing Command Prompts, Powershell windows, and Visual Studio Code instances prior to using Quarto".
 
-![](images/Quarto_Installation_6.jpg){width="300"}
+![](../images/Quarto_Installation_6.jpg){width="300"}
 
 
 
