@@ -1,0 +1,187 @@
+---
+categories: [beginner, basics]
+abstract: "This chapter will be an introduction to Git"
+---
+
+# Quick Git Tutorial
+
+## What Git Can Do
+
+[Git](https://git-scm.com) is a version control system that helps you manage and track the history of your files. 
+Whether you're working alone or as part of a team, Git offers a range of powerful features that make it easier to collaborate, experiment, and keep your project organized. 
+
+Here are some key things Git can do:
+
+**Track Changes:**
+Git allows you to record every change made to your project over time. 
+This means you can see what has been modified, when it was modified, and by whom.
+
+**Version Control:** 
+With Git, you can manage different versions of your project, making it easily possible to roll back to previous states if something goes wrong.
+
+**Branching and merging:** 
+Git enables you to create branches, which are independent lines of development. 
+This lets you work on new features or fixes without affecting the main project.
+After developing in a branch, you can merge the changes back into the main project.
+
+**Collaboration:** 
+Git is designed for collaboration, allowing multiple people to work on the same project simultaneously.
+With [GitHub](https://github.com) or other remote repositories, teams can share their work, review changes, and integrate contributions easily.
+
+**Backup:** 
+By pushing your changes to a remote repository like GitHub, you create a backup of your work that can be accessed from anywhere.
+
+## Using Git: Command Line vs. GUI
+Git can be used through the command line, which is a powerful and flexible way to use Git.
+This chapter focuses on using Git from the command line, providing you with the core commands needed to manage your project effectively.
+However, if you prefer a more visual approach, you can also use Git through Graphical User Interfaces (GUIs), which offer an easier way to handle common Git tasks through point-and-click interactions. 
+Popular Git GUIs include:
+
+- **GitHub Desktop:** [Download GitHub Desktop](https://github.com/apps/desktop)
+- **GitKraken:** [Download GitKraken](https://www.gitkraken.com)
+
+## Installation & Setup
+
+**Install Git:** Download and install Git from [git-scm.com](git-scm.com).
+
+**Configure Git:** 
+After installation, set up your username and email address using the command line. 
+these details will be associated with your commits.
+
+```bash
+git config --global user.name "Your Name"
+```
+
+```bash
+git config --global user.email "your.email@example.com"
+```
+
+**Rename the default branch:**
+By default, Git repositories use master as the main branch.
+However, it's now common to use main as the default branch name. 
+You can rename the branch with the following commands:
+
+```bash
+git config --global init.defaultBranch main
+```
+
+## Starting with Git
+**Initialize a Repository:** 
+Start tracking your project by turning the folder into a Git repository. 
+This command creates a hidden `.git` folder that contains all the necessary files for version control.
+Before you execute it, you should navigate into your project folder using the command line.
+
+```bash
+git init
+```
+
+**Check the Status of Your Repository:** 
+After making changes to your files, check which files have been modified, added, or deleted. 
+This command helps you see what's going on in your project.
+
+```bash
+git status
+```
+
+## Working with Files
+**Stage Files for Commit:**
+Before saving changes to the repository, "stage" them by telling Git which changes to include in the next commit.
+
+```bash
+git add <file_name>
+```
+
+To stage all changes at once:
+
+```bash
+git add .
+```
+
+**Commit Your Changes:** 
+Committing saves a snapshot of your project.
+A commit records the current state of your files and allows you to add a message describing what changes you've made.
+```bash
+git commit -m "Your commit message"
+```
+Each commit creates a unique ID that allows you to track specific changes or revert to previous states if necessary.
+
+##  Viewing Your Project History
+**View Commit History:** 
+Review all the changes made in your repository over time. 
+The log provides information about each commit, including the author, date, and commit message.
+
+```bash
+git log
+```
+
+For a simplified view:
+```bash
+git log --oneline
+```
+
+## Working with Branches
+
+**Understanding Branches:**
+Branches allow you to work on different features or fixes simultaneously without affecting the main codebase. 
+The main branch (or master in default repositories) is the default branch where your stable code lives.
+
+**Create a New Branch:**
+Develop a new feature or experiment with changes in a separate branch.
+This keeps your main branch clean and stable.
+
+```bash
+git branch <branch_name>
+```
+
+**Switch Between Branches:** 
+Start working on a branch by switching to it.
+
+```bash
+git checkout <branch_name>
+```
+
+**Merge Branches:** 
+After completing work on a branch, merge the changes back into the main branch. 
+This incorporates all the updates from your feature branch into the stable codebase.
+
+First, switch back to the main branch:
+
+```bash
+git checkout main
+```
+
+Then merge the changes:
+
+```bash
+git merge <branch_name>
+```
+
+## Connecting to remote repo
+
+**Add a Remote Repository:** 
+Link your local repository to a remote one, such as on GitHub. 
+After creating an empty remote (online) repository, this command connects your local repository to a remote URL.
+
+```bash
+git remote add origin <repository_url>
+```
+
+**Push Changes:** 
+Upload your commits to the remote repository on GitHub so others can access your updates.
+
+```bash
+git push origin <branch_name>
+```
+
+**Pull Changes:** 
+Download updates from the remote repository to your local repository.
+
+```bash
+git pull origin <branch_name>
+```  
+
+## Summary
+
+Git is a powerful version control system that allows you to track changes, collaborate with others, and manage different versions of your project efficiently. 
+By understanding how to initialize a repository, stage and commit changes, manage branches, and interact with remote repositories, you can effectively manage your project. 
+For those looking to dive deeper into Git and explore more advanced features, best practices, and real-world applications, our [Version Control Book](https://lennartwittkuhn.com/version-control-book/) is an excellent resource (we think).

@@ -27,6 +27,7 @@ book:
     - index.qmd
     - contents.qmd
     - chapters/intro.qmd
+    - chapters/git.qmd
     - summary.qmd
     - references.qmd
     - acknowledgements.qmd
@@ -95,6 +96,10 @@ format:
     code-copy: true
     code-link: false
     code-tools: false
+    code-line-numbers: false
+    code-annotations: below
+    highlight-style: monokai
     link-external-newwindow: true
     footnotes-hover: true
     include-after-body: plausible.html
+
