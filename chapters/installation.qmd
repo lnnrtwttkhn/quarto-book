@@ -1,8 +1,7 @@
 ---
 title: "Installation"
+abstract: "This chapter helps you with installation process."
 ---
-This chapter helps you with installation process.
-
 
 ## Download Quarto
 
