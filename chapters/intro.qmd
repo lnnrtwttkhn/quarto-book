@@ -1,6 +1,6 @@
 ---
 categories: [beginner, basics]
-abstract: "This chapter will be an introduction to Quarto"
+abstract: "This chapter is an introduction to Quarto"
 ---
 
 # Quarto intro
