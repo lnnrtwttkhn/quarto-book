@@ -2,6 +2,7 @@
   {
     "listing": "/contents.html",
     "items": [
+      "/chapters/approach.html",
       "/chapters/intro.html",
       "/chapters/installation.html"
     ]

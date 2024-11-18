@@ -14,59 +14,89 @@
     "href": "contents.html",
     "title": "Contents",
     "section": "",
-    "text": "The estimate of the reading time for each chapter is computed by counting the words in the chapter and assuming a reading speed of 200 words per minute.\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Modified - Oldest\n        \n         \n          Modified - Newest\n        \n         \n          Reading Time (Low to High)\n        \n         \n          Reading Time (High to Low)\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nIntroduction\n\n\n\n\n\n\n\n\n\n\n\n1 min\n\n\nNovember 18, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nInstallation\n\n\n\n\n\nThis chapter helps you with installation process.\n\n\n\n\n\n2 min\n\n\nNovember 18, 2024\n\n\n\n\n\n\nNo matching items",
+    "text": "The estimate of the reading time for each chapter is computed by counting the words in the chapter and assuming a reading speed of 200 words per minute.\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Modified - Oldest\n        \n         \n          Modified - Newest\n        \n         \n          Reading Time (Low to High)\n        \n         \n          Reading Time (High to Low)\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nApproach\n\n\n\n\n\nQuarto helps, but how?\n\n\n\n\n\n2 min\n\n\nNovember 18, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction\n\n\n\n\n\n\n\n\n\n\n\n1 min\n\n\nNovember 18, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nInstallation\n\n\n\n\n\nThis chapter helps you with installation process.\n\n\n\n\n\n2 min\n\n\nNovember 18, 2024\n\n\n\n\n\n\nNo matching items",
     "crumbs": [
       "Contents"
     ]
   },
   {
+    "objectID": "chapters/approach.html",
+    "href": "chapters/approach.html",
+    "title": "1  Approach",
+    "section": "",
+    "text": "1.1 What is this book about?\nIn short, the book focuses on the necessary elements of FAIR values, namely, Findable, Accessible, Interoperable, and Reusable materials, using Quarto. This book aims familiarize the reader with Quarto, a powerful tool for crafting educational FAIR contents with hands-on examples. Our guide is not a replacement for the Quarto documentation. We don’t want to teach Quarto from A to Z, rather, we aim to orient Quarto’s capabilities towards creating teaching materials and reproducible research.\nQuarto has several features that make it a perfect fit as the cornerstone for making FAIR materials. It can be easily synchronized with different platforms like Git, which is a huge advantage compared to other word processor programs like Microsoft Word.\nThis shareability feature is the first and arguably the most important step in creating FAIR content, that opens numerous opportunities for the scientific community, such as contributing to others’ works or computational examination of their research. The main focus of the guide is on the necessary elements of FAIR materials, concretely, for crafting educational content.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Approach</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/approach.html#how-to-use-this-guide",
+    "href": "chapters/approach.html#how-to-use-this-guide",
+    "title": "1  Approach",
+    "section": "1.2 How to use this guide?",
+    "text": "1.2 How to use this guide?\nQuarto is the intersection of various tools. It is a text editor, a slide crafting tool, a website builder, and a code compiler all at once. We recommend integrating the use of Quarto with your existing material development process. For example, if you are in the middle of developing materials for your lectures, use Quarto alongside your current method of developing these materials for a small portion of the content. This approach helps you get to know Quarto better and adapt its abilities to your purpose.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Approach</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/approach.html#how-can-i-contribute-to-this-book",
+    "href": "chapters/approach.html#how-can-i-contribute-to-this-book",
+    "title": "1  Approach",
+    "section": "1.3 How can I contribute to this book?",
+    "text": "1.3 How can I contribute to this book?\nThis book is constantly evolving and meant as a living resource, and your input can make it even better! If you spot typos, have suggestions for improvement, or want to contribute new content, we welcome your involvement! If you find a typo, an unclear explanation, have an idea for a new chapter or want to see a specific topic covered you are more than welcome to open an issue or submit a pull request in the GitHub repository of this book.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Approach</span>"
+    ]
+  },
+  {
     "objectID": "chapters/intro.html",
     "href": "chapters/intro.html",
-    "title": "1  Introduction",
+    "title": "2  Introduction",
     "section": "",
     "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction</span>"
     ]
   },
   {
     "objectID": "chapters/installation.html",
     "href": "chapters/installation.html",
-    "title": "2  Installation",
+    "title": "3  Installation",
     "section": "",
-    "text": "2.1 Download Quarto\nQuarto is free to use and available for download on Quarto’s website. The very first step is to download Quarto. On the homepage, there is a button labeled as Get Started. Click on it and navigate to the new page in which there are download links. Download Quarto based on your operating system. It is compatible with  Mac,  Windows,  Ubuntu and  Linux.",
+    "text": "3.1 Download Quarto\nQuarto is free to use and available for download on Quarto’s website. The very first step is to download Quarto. On the homepage, there is a button labeled as Get Started. Click on it and navigate to the new page in which there are download links. Download Quarto based on your operating system. It is compatible with  Mac,  Windows,  Ubuntu and  Linux.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Installation</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Installation</span>"
     ]
   },
   {
     "objectID": "chapters/installation.html#download-quarto",
     "href": "chapters/installation.html#download-quarto",
-    "title": "2  Installation",
+    "title": "3  Installation",
     "section": "",
     "text": "Quarto’s Website\n\n\n\n\n\nQuarto Download Page",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Installation</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Installation</span>"
     ]
   },
   {
     "objectID": "chapters/installation.html#install-quarto",
     "href": "chapters/installation.html#install-quarto",
-    "title": "2  Installation",
-    "section": "2.2 Install Quarto",
-    "text": "2.2 Install Quarto\nGo to the directory in which Quarto is downloaded and double-click on it to start the installation process. During the installation process, you’ll be presented with various options and settings. We recommend to leave all settings to their standard configuration, unless you have a specific need to e.g. change the installation destination.\n\n Windows MacOS Linux\n\n\n\n\n\nWindows Installer\n\n\n\n\n\n\n\n\n\n\n\n\n Windows MacOS Linux\n\n\n\n\n\nWindows Installer\n\n\n\n\n\n\n\n\n\n\n\nOnce you have finished selecting your preference, click the install button to begin the installation process.\n\n Windows MacOS Linux\n\n\n\n\n\nWindows Installer\n\n\n\n\n\n\n\n\n\n\n\nThe installer will copy the necessary files and set up Quarto on your system. Once the installation is complete, you’ll see a “Finish” button and a text that tells you to “restart any existing Command Prompts, Powershell windows, and Visual Studio Code instances prior to using Quarto”.\n\n Windows MacOS Linux\n\n\n\n\n\nWindows Installer",
+    "title": "3  Installation",
+    "section": "3.2 Install Quarto",
+    "text": "3.2 Install Quarto\nGo to the directory in which Quarto is downloaded and double-click on it to start the installation process. During the installation process, you’ll be presented with various options and settings. We recommend to leave all settings to their standard configuration, unless you have a specific need to e.g. change the installation destination.\n\n Windows MacOS Linux\n\n\n\n\n\nWindows Installer\n\n\n\n\n\n\n\n\n\n\n\n\n Windows MacOS Linux\n\n\n\n\n\nWindows Installer\n\n\n\n\n\n\n\n\n\n\n\nOnce you have finished selecting your preference, click the install button to begin the installation process.\n\n Windows MacOS Linux\n\n\n\n\n\nWindows Installer\n\n\n\n\n\n\n\n\n\n\n\nThe installer will copy the necessary files and set up Quarto on your system. Once the installation is complete, you’ll see a “Finish” button and a text that tells you to “restart any existing Command Prompts, Powershell windows, and Visual Studio Code instances prior to using Quarto”.\n\n Windows MacOS Linux\n\n\n\n\n\nWindows Installer",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Installation</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Installation</span>"
     ]
   },
   {
     "objectID": "summary.html",
     "href": "summary.html",
-    "title": "3  Summary",
+    "title": "4  Summary",
     "section": "",
     "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Summary</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Summary</span>"
     ]
   },
   {
