@@ -2,38 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://lennartwittkuhn.com/quarto-book/index.html</loc>
-    <lastmod>2024-11-18T09:44:23.156Z</lastmod>
+    <lastmod>2024-11-18T09:45:03.586Z</lastmod>
   </url>
   <url>
     <loc>https://lennartwittkuhn.com/quarto-book/contents.html</loc>
-    <lastmod>2024-11-18T09:44:23.156Z</lastmod>
+    <lastmod>2024-11-18T09:45:03.586Z</lastmod>
   </url>
   <url>
     <loc>https://lennartwittkuhn.com/quarto-book/chapters/approach.html</loc>
-    <lastmod>2024-11-18T09:44:23.156Z</lastmod>
+    <lastmod>2024-11-18T09:45:03.586Z</lastmod>
   </url>
   <url>
     <loc>https://lennartwittkuhn.com/quarto-book/chapters/intro.html</loc>
-    <lastmod>2024-11-18T09:44:23.156Z</lastmod>
+    <lastmod>2024-11-18T09:45:03.586Z</lastmod>
   </url>
   <url>
     <loc>https://lennartwittkuhn.com/quarto-book/chapters/installation.html</loc>
-    <lastmod>2024-11-18T09:44:23.156Z</lastmod>
+    <lastmod>2024-11-18T09:45:03.586Z</lastmod>
   </url>
   <url>
     <loc>https://lennartwittkuhn.com/quarto-book/chapters/setup.html</loc>
-    <lastmod>2024-11-18T09:44:23.156Z</lastmod>
+    <lastmod>2024-11-18T09:45:03.586Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lennartwittkuhn.com/quarto-book/chapters/texts-images-tables.html</loc>
+    <lastmod>2024-11-18T09:45:03.586Z</lastmod>
   </url>
   <url>
     <loc>https://lennartwittkuhn.com/quarto-book/summary.html</loc>
-    <lastmod>2024-11-18T09:44:23.160Z</lastmod>
+    <lastmod>2024-11-18T09:45:03.586Z</lastmod>
   </url>
   <url>
     <loc>https://lennartwittkuhn.com/quarto-book/references.html</loc>
-    <lastmod>2024-11-18T09:44:23.156Z</lastmod>
+    <lastmod>2024-11-18T09:45:03.586Z</lastmod>
   </url>
   <url>
     <loc>https://lennartwittkuhn.com/quarto-book/acknowledgements.html</loc>
-    <lastmod>2024-11-18T09:44:23.156Z</lastmod>
+    <lastmod>2024-11-18T09:45:03.586Z</lastmod>
   </url>
 </urlset>

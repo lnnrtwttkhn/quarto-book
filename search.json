@@ -14,7 +14,7 @@
     "href": "contents.html",
     "title": "Contents",
     "section": "",
-    "text": "The estimate of the reading time for each chapter is computed by counting the words in the chapter and assuming a reading speed of 200 words per minute.\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Modified - Oldest\n        \n         \n          Modified - Newest\n        \n         \n          Reading Time (Low to High)\n        \n         \n          Reading Time (High to Low)\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nApproach\n\n\n\n\n\nQuarto helps, but how?\n\n\n\n\n\n2 min\n\n\nNovember 18, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction\n\n\n\n\n\n\n\n\n\n\n\n1 min\n\n\nNovember 18, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nInstallation\n\n\n\n\n\nThis chapter helps you with installation process.\n\n\n\n\n\n2 min\n\n\nNovember 18, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nGetting Started\n\n\n\n\n\n\n\n\n\n\n\n2 min\n\n\nNovember 18, 2024\n\n\n\n\n\n\nNo matching items",
+    "text": "The estimate of the reading time for each chapter is computed by counting the words in the chapter and assuming a reading speed of 200 words per minute.\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Modified - Oldest\n        \n         \n          Modified - Newest\n        \n         \n          Reading Time (Low to High)\n        \n         \n          Reading Time (High to Low)\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nApproach\n\n\n\n\n\nQuarto helps, but how?\n\n\n\n\n\n2 min\n\n\nNovember 18, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction\n\n\n\n\n\n\n\n\n\n\n\n1 min\n\n\nNovember 18, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nInstallation\n\n\n\n\n\nThis chapter helps you with installation process.\n\n\n\n\n\n2 min\n\n\nNovember 18, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nGetting Started\n\n\n\n\n\n\n\n\n\n\n\n2 min\n\n\nNovember 18, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nTexts, Images, and Tables\n\n\n\n\n\n\n\n\n\n\n\n11 min\n\n\nNovember 18, 2024\n\n\n\n\n\n\nNo matching items",
     "crumbs": [
       "Contents"
     ]
@@ -120,13 +120,23 @@
     ]
   },
   {
+    "objectID": "chapters/texts-images-tables.html",
+    "href": "chapters/texts-images-tables.html",
+    "title": "5  Texts, Images, and Tables",
+    "section": "",
+    "text": "5.0.1 Text Formatting\nFirst and foremost, Quarto is a publishing system. Therefore, it has the flexibility to format text in various ways. It is possible to write in visual or source modes. In visual editor no syntax is involved to change the style of text, as opposed to, source. Below you can see the tables that introduce the syntax related to a specific style such as bold, italic, etc.\n\n5.0.1.1 Bold, Italic, and more…\n\n\n\n\n\n\n\nSyntax\nOutput\n\n\n\n\n*Pizza* **never** texts ***back***.\nPizza never texts back.\n\n\nE=mc^2^ — my ex~2~cuse for eating dessert ~~twice~~ three times!\nE=mc2 — my ex2cuse for eating dessert twice three times!\n\n\n`verbatim code`\nverbatim code\n\n\n\n\n\n\n5.0.2 Headings\n\n\n\n\n\n\n\nMarkdown\nOutput\n\n\n\n\n# Header 1\n6 Header 1\n\n\n## Header 2\n6.1 Header 2\n\n\n### Header 3\n6.1.1 Header 3\n\n\n#### Header 4\n6.1.1.1 Header 4\n\n\n##### Header 5\nHeader 5\n\n\n###### Header 6\nHeader 6\n\n\n\n\n\n6.1.2 Links\nLinks can be added to a Quarto document by simply using https://quarto.org.\n&lt;https://quarto.org&gt;\nTo link a word, the following syntax is used:\n[Quarto Website](https://quarto.org)\nQuarto Website\n\n\n6.1.3 Tables\nTo draw a table in Quarto, you should draw a table! Let’s find out with an example:\n| Fruits | Animals|  Trees |\n|:------:|:-------|-------:|\n| Orange |  Tiger |Sequoia |\n| Apple  |Dolphin | Cedar  |\n| Banana |  Wolf  | Pine   |\n\n\n\nFruits\nAnimals\nTrees\n\n\n\n\nOrange\nTiger\nSequoia\n\n\nApple\nDolphin\nCedar\n\n\nBanana\nWolf\nPine\n\n\n\nAs you see, adding : to the left, right or both sides of the dashes will affect the alignment of a column. For further customization options regarding tables see Quarto’s documentation on tables.\n\n\n6.1.4 Images\nIn the simplest form, images can be added to a Quarto document by using:\n![Description](image address)\n\n\n\nPhoto by Michael Baccin on Unsplash\n\n\nImages can also be turned into links. It is basically combining the syntax of an image and a link together:\n[![Description](image address)](Link)\n\n\n\nPhoto by Kiarash Mansouri on Unsplash\n\n\nFor better accessibility, it is possible and recommended to add alt text to the images.\n[![Description](image address){fig-alt=\"Alt text\"}](Link)\n\n\n\nPhoto by Anita Austvika on Unsplash",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Texts, Images, and Tables</span>"
+    ]
+  },
+  {
     "objectID": "summary.html",
     "href": "summary.html",
-    "title": "5  Summary",
+    "title": "6  Summary",
     "section": "",
     "text": "In summary, this book has no content whatsoever.\n\n1 + 1",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Summary</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Summary</span>"
     ]
   },
   {
