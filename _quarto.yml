@@ -30,6 +30,7 @@ book:
     - chapters/intro.qmd
     - chapters/installation.qmd
     - chapters/setup.qmd
+    - chapters/how-to-code.qmd
     - summary.qmd
     - references.qmd
     - acknowledgements.qmd
