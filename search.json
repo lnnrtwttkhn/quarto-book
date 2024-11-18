@@ -14,7 +14,7 @@
     "href": "contents.html",
     "title": "Contents",
     "section": "",
-    "text": "The estimate of the reading time for each chapter is computed by counting the words in the chapter and assuming a reading speed of 200 words per minute.\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Modified - Oldest\n        \n         \n          Modified - Newest\n        \n         \n          Reading Time (Low to High)\n        \n         \n          Reading Time (High to Low)\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nApproach\n\n\n\n\n\nQuarto helps, but how?\n\n\n\n\n\n2 min\n\n\nNovember 18, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction\n\n\n\n\n\n\n\n\n\n\n\n1 min\n\n\nNovember 18, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nInstallation\n\n\n\n\n\nThis chapter helps you with installation process.\n\n\n\n\n\n2 min\n\n\nNovember 18, 2024\n\n\n\n\n\n\nNo matching items",
+    "text": "The estimate of the reading time for each chapter is computed by counting the words in the chapter and assuming a reading speed of 200 words per minute.\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Modified - Oldest\n        \n         \n          Modified - Newest\n        \n         \n          Reading Time (Low to High)\n        \n         \n          Reading Time (High to Low)\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nApproach\n\n\n\n\n\nQuarto helps, but how?\n\n\n\n\n\n2 min\n\n\nNovember 18, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction\n\n\n\n\n\n\n\n\n\n\n\n1 min\n\n\nNovember 18, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nInstallation\n\n\n\n\n\nThis chapter helps you with installation process.\n\n\n\n\n\n2 min\n\n\nNovember 18, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nGetting Started\n\n\n\n\n\n\n\n\n\n\n\n2 min\n\n\nNovember 18, 2024\n\n\n\n\n\n\nNo matching items",
     "crumbs": [
       "Contents"
     ]
@@ -90,13 +90,43 @@
     ]
   },
   {
+    "objectID": "chapters/setup.html",
+    "href": "chapters/setup.html",
+    "title": "4  Getting Started",
+    "section": "",
+    "text": "4.1 Your first project with Quarto\nOn the same page that you downloaded the Quarto installer, you can find different tools to get started with. RStudio is our preferred tool because of its capabilities and well-structured integration with Quarto and other tools such as Git. Feel free to use other tools like VS Code, Jupyter, Neovim or even a simple Text Editor if you want.\nTo open a Quarto document in RStudio follow the steps below:\nFrom now on you can add text, images, code, tables to your document, whether in Visual or Source environment.\nYou can render your document to see how the changes you have made actually look like. To render, click on the Render button . It is also possible to Render on Save  by checking the empty box! .\nThis is how our document looks like after rendering:\nHere you can write whatever you want! And even format it in bold, italic, as a link.\nDo you want to show code? No problem!\nCode\n\n# This is an executable code chunk in R language.\na &lt;- 1\nb &lt;- 2\nc &lt;- a + b\nprint(c)\n\n\n[1] 3\nQuarto offers many more features as well, which we’ll learn together in the course of this documentation.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Getting Started</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/setup.html#your-first-project-with-quarto",
+    "href": "chapters/setup.html#your-first-project-with-quarto",
+    "title": "4  Getting Started",
+    "section": "",
+    "text": "Open RStudio. If you don’t have RStudio installed download it here. You can find the RStudio’s installation guide here as well.\nOn the toolbar click on new document icon. Then you will see several options.\nTo open a Quarto document click on Quarto document… icon.\n\n\n\nCongratulations! You have opened your first .qmd file. It should look like this: an image of an empty qmd document. \n\n\n\n\n\nQuarto Document in Visual Mode\n\n\n\n\n\nQuarto Document in Source Mode\n\n\n\n\n\n\nIncremental list\nIncremental list\nIncremental list\nIncremental list",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Getting Started</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/setup.html#yaml-header",
+    "href": "chapters/setup.html#yaml-header",
+    "title": "4  Getting Started",
+    "section": "4.2 YAML Header",
+    "text": "4.2 YAML Header\nIn Quarto you can set attributes to the document you are working on. YAML header is where one writes these attributes and is defined by --- in the beginning of the document. By default, Quarto sets up a YAML header for every .qmd file. We can modify that, for example by adding a subtitle, or the author.\n---\ntitle: \"Quarto Document\"\nsubtitle: \"Hello Quarto!\"\neditor: visual\nauthor: \"Name of the author\"\n---\nTo find the full list of YAML attributes refer to the Quarto documentation, here.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Getting Started</span>"
+    ]
+  },
+  {
     "objectID": "summary.html",
     "href": "summary.html",
-    "title": "4  Summary",
+    "title": "5  Summary",
     "section": "",
     "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Summary</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Summary</span>"
     ]
   },
   {
