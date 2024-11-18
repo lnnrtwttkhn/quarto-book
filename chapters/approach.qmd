@@ -24,33 +24,6 @@ We recommend integrating the use of Quarto with your existing material developme
 For example, if you are in the middle of developing materials for your lectures, use Quarto alongside your current method of developing these materials for a small portion of the content.
 This approach helps you get to know Quarto better and adapt its abilities to your purpose.
 
-## Quarto's intersectionality helps researchers
-
-Dr. Taylor is a neurocognitive psychologist investigating the brain mechanisms underlying decision-making in various situations.
-As a part of his job, Dr. Taylor also gives lectures and holds seminars at an institution.
-One day, he receives an email inviting him to collaborate on a project with six other researchers from around the world.
-They aim to explore the fascinating workings of the brain to see if cultural differences affect decision-making.
-
-Dr. Taylor feels excited and replies to the email with a smile on his face.
-But then he remembers the last time he was part of a large research group.
-he workflow was chaotic: every file needed renaming, data went missing due to the lack of an agreed storage method, and files were occasionally altered without any way to track who was responsible for the changes.
-
-The worst part was when another group tried to replicate their work but couldn’t due to vague or missing documentation.
-He felt a little ashamed of himself because he was a big fan of the idea of openly share teaching and research materials, but could not teach his own research in the seminars!
-
-Meanwhile, the project coordinator responded to his email.
-He opened the attached documents and found a clear guideline on how to use tools like Git and Quarto to keep the research output FAIR.
-It was a relief!
-
-Dr. Taylor was familiar with Git but had no idea of the other tool.
-The guide described it as a flexible markdown tool
-It seemed that Quarto was the operationalized intersection of the FAIR principles!
-According to the guide, team members could draft their sections, integrate code, create presentation slides, document the research process on a website, and synchronize their work seamlessly through Git integration
-Nothing could go wrong!
-
-Dr. Taylor was thrilled to contribute to science in a truly *FAIR* way!
-
-
 ## How can I contribute to this book?
 
 This book is constantly evolving and meant as a living resource, and your input can make it even better!
