@@ -2,7 +2,8 @@
   {
     "listing": "/contents.html",
     "items": [
-      "/chapters/intro.html"
+      "/chapters/intro.html",
+      "/chapters/installation.html"
     ]
   }
 ]

@@ -14,7 +14,7 @@
     "href": "contents.html",
     "title": "Contents",
     "section": "",
-    "text": "The estimate of the reading time for each chapter is computed by counting the words in the chapter and assuming a reading speed of 200 words per minute.\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Modified - Oldest\n        \n         \n          Modified - Newest\n        \n         \n          Reading Time (Low to High)\n        \n         \n          Reading Time (High to Low)\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nIntroduction\n\n\n\n\n\n\n\n\n\n\n\n1 min\n\n\nNovember 4, 2024\n\n\n\n\n\n\nNo matching items",
+    "text": "The estimate of the reading time for each chapter is computed by counting the words in the chapter and assuming a reading speed of 200 words per minute.\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Modified - Oldest\n        \n         \n          Modified - Newest\n        \n         \n          Reading Time (Low to High)\n        \n         \n          Reading Time (High to Low)\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nIntroduction\n\n\n\n\n\n\n\n\n\n\n\n1 min\n\n\nNovember 18, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nInstallation\n\n\n\n\n\nThis chapter helps you with installation process.\n\n\n\n\n\n2 min\n\n\nNovember 18, 2024\n\n\n\n\n\n\nNo matching items",
     "crumbs": [
       "Contents"
     ]
@@ -30,13 +30,43 @@
     ]
   },
   {
+    "objectID": "chapters/installation.html",
+    "href": "chapters/installation.html",
+    "title": "2  Installation",
+    "section": "",
+    "text": "2.1 Download Quarto\nQuarto is free to use and available for download on Quarto’s website. The very first step is to download Quarto. On the homepage, there is a button labeled as Get Started. Click on it and navigate to the new page in which there are download links. Download Quarto based on your operating system. It is compatible with  Mac,  Windows,  Ubuntu and  Linux.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Installation</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/installation.html#download-quarto",
+    "href": "chapters/installation.html#download-quarto",
+    "title": "2  Installation",
+    "section": "",
+    "text": "Quarto’s Website\n\n\n\n\n\nQuarto Download Page",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Installation</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/installation.html#install-quarto",
+    "href": "chapters/installation.html#install-quarto",
+    "title": "2  Installation",
+    "section": "2.2 Install Quarto",
+    "text": "2.2 Install Quarto\nGo to the directory in which Quarto is downloaded and double-click on it to start the installation process. During the installation process, you’ll be presented with various options and settings. We recommend to leave all settings to their standard configuration, unless you have a specific need to e.g. change the installation destination.\n\n Windows MacOS Linux\n\n\n\n\n\nWindows Installer\n\n\n\n\n\n\n\n\n\n\n\n\n Windows MacOS Linux\n\n\n\n\n\nWindows Installer\n\n\n\n\n\n\n\n\n\n\n\nOnce you have finished selecting your preference, click the install button to begin the installation process.\n\n Windows MacOS Linux\n\n\n\n\n\nWindows Installer\n\n\n\n\n\n\n\n\n\n\n\nThe installer will copy the necessary files and set up Quarto on your system. Once the installation is complete, you’ll see a “Finish” button and a text that tells you to “restart any existing Command Prompts, Powershell windows, and Visual Studio Code instances prior to using Quarto”.\n\n Windows MacOS Linux\n\n\n\n\n\nWindows Installer",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Installation</span>"
+    ]
+  },
+  {
     "objectID": "summary.html",
     "href": "summary.html",
-    "title": "2  Summary",
+    "title": "3  Summary",
     "section": "",
     "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Summary</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Summary</span>"
     ]
   },
   {
