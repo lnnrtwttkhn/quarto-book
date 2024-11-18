@@ -26,7 +26,10 @@ book:
   chapters:
     - index.qmd
     - contents.qmd
+    - chapters/approach.qmd
     - chapters/intro.qmd
+    - chapters/installation.qmd
+    - chapters/setup.qmd
     - summary.qmd
     - references.qmd
     - acknowledgements.qmd
