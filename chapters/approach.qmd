@@ -1,13 +1,13 @@
 ---
-title: "Guide's Approach"
+title: "Approach"
 abstract: "Quarto helps, but how?"
 ---
 
 ## What is this book about?
 
-In short, the book focuses on the necessary elements of FAIR values, namely, *Findable*, *Accessible*, *Interoperable*, and *Reusable* materials, using [**Quarto**](https://quarto.org/).
+In short, the book focuses on the necessary elements of FAIR values, namely, *Findable*, *Accessible*, *Interoperable*, and *Reusable* materials, using [**Quarto**]({{< links.quarto >}}).
 This book aims familiarize the reader with Quarto, a powerful tool for crafting educational FAIR contents with hands-on examples.
-Our guide is not a replacement for Quarto documentation.
+Our guide is not a replacement for the Quarto documentation.
 We don't want to teach Quarto from A to Z, rather, we aim to orient Quarto's capabilities towards creating teaching materials and reproducible research.
 
 Quarto has several features that make it a perfect fit as the cornerstone for making FAIR materials.
@@ -15,7 +15,6 @@ It can be easily synchronized with different platforms like Git, which is a huge
 
 This shareability feature is the first and arguably the most important step in creating FAIR content, that opens numerous opportunities for the scientific community, such as contributing to others' works or computational examination of their research.
 The main focus of the guide is on the necessary elements of FAIR materials, concretely, for crafting educational content.
-
 
 ## How to use this guide?
 
@@ -54,6 +53,6 @@ Dr. Taylor was thrilled to contribute to science in a truly *FAIR* way!
 
 ## How can I contribute to this book?
 
-This book is constantly evolving and meant as a living resource, and your input can make it even better! If you spot typos, have suggestions for improvement, or want to contribute new content, we welcome your involvement!
-If you find a typo, an unclear explanation, have an idea for a new chapter or want to see a specific topic covered you are more than welcome to open an issue or submit a pull request in the GitHub repository of this book
-
+This book is constantly evolving and meant as a living resource, and your input can make it even better!
+If you spot typos, have suggestions for improvement, or want to contribute new content, we welcome your involvement!
+If you find a typo, an unclear explanation, have an idea for a new chapter or want to see a specific topic covered you are more than welcome to open an issue or submit a pull request in the GitHub repository of this book.
