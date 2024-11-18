@@ -84,6 +84,8 @@ citation-location: document
 citeproc: true
 from: markdown+emoji
 license: CC BY
+metadata-files:
+  - _metadata.yml
 
 format:
   html:
