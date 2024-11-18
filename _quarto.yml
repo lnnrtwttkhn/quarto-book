@@ -26,7 +26,9 @@ book:
   chapters:
     - index.qmd
     - contents.qmd
+    - chapters/approach.qmd
     - chapters/intro.qmd
+    - chapters/installation.qmd
     - summary.qmd
     - references.qmd
     - acknowledgements.qmd
