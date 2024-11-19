@@ -161,7 +161,7 @@ These chunks can be written in various programming languages and are executed du
 
 #### Example Code Chunk:
 
-```{r}
+```{r filename = "Code"}
 # Example Code Chunk
 # This is an R code chunk that generates a scatter plot
 x <- c(1, 2, 3, 4, 5)
