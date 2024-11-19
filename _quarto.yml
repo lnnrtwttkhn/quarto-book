@@ -27,6 +27,11 @@ book:
     - index.qmd
     - contents.qmd
     - chapters/intro.qmd
+    - part: chapters/texts-images-tables.qmd
+      chapters: 
+      - chapters/text-formatting.qmd
+      - chapters/images.qmd
+      - chapters/tables.qmd
     - summary.qmd
     - references.qmd
     - acknowledgements.qmd
