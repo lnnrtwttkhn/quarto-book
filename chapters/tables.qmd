@@ -1,0 +1,20 @@
+
+### Tables
+
+To draw a table on Quarto, you should draw a table! Let's find out with an example:
+
+``` markdown
+| Fruits | Animals|  Trees |
+|:------:|:-------|-------:|
+| Orange |  Tiger |Sequoia |
+| Apple  |Dolphin | Cedar  |
+| Banana |  Wolf  | Pine   |
+```
+
+| Fruits | Animals |   Trees |
+|:------:|:--------|--------:|
+| Orange | Tiger   | Sequoia |
+| Apple  | Dolphin |   Cedar |
+| Banana | Wolf    |    Pine |
+
+As you see, adding `:` to the left, right or both sides of the dashes will affect the alignment of a column. For further customization options regarding tables see [Quarto's documentation](https://quarto.org/docs/authoring/tables.html) on tables.
