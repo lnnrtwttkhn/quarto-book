@@ -6,3 +6,6 @@
 /images/
 /_book/
 *_files
+renv.lock
+renv/activate.R
+renv/activate.R
