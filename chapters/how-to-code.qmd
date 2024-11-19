@@ -189,7 +189,7 @@ As an example, we use a pre-installed R dataset about iris flowers (Iris setosa,
 
 
 # Source the external R script
-source("E:\\FAIR-Teaching\\Git-Repository\\quarto-book\\chapters\\script.R")
+source("script\\iris-script.R")
 
 
 ```
