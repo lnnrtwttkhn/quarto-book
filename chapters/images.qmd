@@ -1,0 +1,25 @@
+### Images
+
+In the simplest form, images can be added to a Quarto document by using
+
+``` markdown
+![Description](image address)
+```
+
+![Photo by Michael Baccin on Unsplash](..\images\Yellow%20House.jpg){width="350"}
+
+Images can also be turned into links. It is basically combining the syntax of an image and a link together:
+
+``` markdown
+[![Description](image address)](Link)
+```
+
+[![Photo by Kiarash Mansouri on Unsplash](..\images\Up.jpg){width="350"}](https://unsplash.com/photos/a-yellow-house-with-a-mountain-in-the-background-ZcIquAS0T-I)
+
+For better accessibility, it is possible and recommended to add alt text to the images.
+
+``` markdown
+[![Description](image address){fig-alt="Alt text"}](Link)
+```
+
+[![Photo by Anita Austvika on Unsplash](..\images\Vase.jpg){fig-alt="A vase with yellow, red, purple and white flowers." width="350"}](https://unsplash.com/photos/a-white-pitcher-filled-with-flowers-on-top-of-a-table-6hZbcPBdyek)
