@@ -1,4 +1,57 @@
-# FAIR principles
+---
+title: "The FAIR Framework"
+abstract: "What are FAIR principles? Can OER (Open Educational Resources) be FAIR?"
+---
 
-These are the FAIR principles:
+# The FAIR Framework
 
+Since science has transitioned from pens and paper to keyboards and monitors, developing a suitable and appropriate approach to archiving, reproducing, sharing, and collaborating on scientific outputs seems inevitable.
+One of the most well-known frameworks developed by Wilkinson et al. (2016) to define best practices in research data management is the **FAIR** principles.
+FAIR stands for ***Findable***, ***Accessible***, ***Interoperable***, and ***Reusable***.
+The FAIR principles serve as a guide to achieving better data management.
+They enable data to be `machine actionable`, meaning they equip autonomous computational systems with detailed, structured information while exploring the data.
+
+# What is Findable, Accessible, Interoperable, and Reusable?
+
+According to the FAIR principles:
+
+*  data are **Findable**,
+   + when they are indexed in a searchable resource,
+   + described with excessive metadata,
+   + have a unique identifier such as a DOI,
+   + include the identifier in the metadata.
+
+
+* **Accessible data**, 
+   + can be accessed through their identifier,
+   + has a free, universally accessible, and open protocol,
+   + supports authentication processes when required
+   + have an accessible metadata regardless of the data availability.
+   
+* **Interoperable** data and metadata,
+   + 
+
+* **Reusable** means,
+   + 
+-----------------------
+* To be **Findable**:
+   + F1. (meta)data are assigned a globally unique and persistent identifier
+   + F2. data are described with rich metadata (defined by R1 below)
+   + F3. metadata clearly and explicitly include the identifier of the data it describes
+   + F4. (meta)data are registered or indexed in a searchable resource
+
+
+* To be **Accessible**:
+   + A1. (meta)data are retrievable by their identifier using a standardized communications protocol
+   + A1.1 the protocol is open, free, and universally implementable
+   + A1.2 the protocol allows for an authentication and authorization procedure, where necessary
+   + A2. metadata are accessible, even when the data are no longer available
+* To be **Interoperable**:
+   + I1. (meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation.
+   + I2. (meta)data use vocabularies that follow FAIR principles
+   + I3. (meta)data include qualified references to other (meta)data
+* To be **Reusable**:
+   + R1. meta(data) are richly described with a plurality of accurate and relevant attributes
+   + R1.1. (meta)data are released with a clear and accessible data usage license
+   + R1.2. (meta)data are associated with detailed provenance
+   + R1.3. (meta)data meet domain-relevant community standards
