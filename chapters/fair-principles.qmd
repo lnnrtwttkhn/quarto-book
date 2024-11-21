@@ -5,7 +5,7 @@ abstract: "What are FAIR principles? Can OER (Open Educational Resources) be FAI
 
 # The FAIR Framework
 
-Since science has transitioned from pens and paper to keyboards and monitors, developing a suitable and appropriate approach to archiving, reproducing, sharing, and collaborating on scientific outputs seems inevitable. One of the most well-known frameworks developed by Wilkinson et al. (2016) to define best practices in research data management is the **FAIR** principles. FAIR stands for ***Findable***, ***Accessible***, ***Interoperable***, and ***Reusable***. The FAIR principles serve as a guide to achieving better data management. They enable data to be ***machine actionable***, meaning they equip autonomous computational systems with detailed, structured information while exploring the data.
+Since science has transitioned from pens and paper to keyboards and monitors, developing a suitable and appropriate approach to archiving, reproducing, sharing, and collaborating on scientific outputs seems inevitable. One of the most well-known frameworks developed by @wilkinson2016 to define best practices in research data management is the **FAIR** principles. FAIR stands for ***Findable***, ***Accessible***, ***Interoperable***, and ***Reusable***. The FAIR principles serve as a guide to achieving better data management. They enable data to be ***machine actionable***, meaning they equip autonomous computational systems with detailed, structured information while exploring the data.
 
 ## What is Findable, Accessible, Interoperable, and Reusable?
 
@@ -42,7 +42,7 @@ According to the FAIR principles:
 
 
 
-Since the FAIR values are principles that guide researchers along their scientific journey, we directly quote Wilkinson et al. (2016)'s definition of every principle to leave no room for interpretation:
+Since the FAIR values are principles that guide researchers along their scientific journey, we directly quote @wilkinson2016's definition of every principle to leave no room for interpretation:
 
 ::: {.callout-tip collapse=true}
 ## To be Findable:
