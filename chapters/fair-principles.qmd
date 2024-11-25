@@ -40,7 +40,15 @@ According to the FAIR principles:
 
 Since the FAIR values are principles that guide researchers along their scientific journey, we directly quote @wilkinson2016's definition of every principle to leave no room for interpretation:
 
+<<<<<<< HEAD
 ::: {.callout-tip collapse="true"}
+=======
+
+
+Since the FAIR values are principles that guide researchers along their scientific journey, we directly quote @wilkinson2016's definition of every principle to leave no room for interpretation:
+
+::: {.callout-tip collapse=true}
+>>>>>>> a458ae4ed2c7908b4a32c112c8a966e6911f4c1e
 ## To be Findable:
 
 **F1.** (meta)data are assigned a globally unique and persistent identifier.
