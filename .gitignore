@@ -5,3 +5,5 @@
 /.quarto/
 /images/
 /_book/
+*_files
+*.html
