@@ -26,7 +26,7 @@ From now on you can add text, images, code, tables to your document, whether in 
 
 ![Quarto Document in Source](../images/Quarto_Setup_4.jpg)
 
-You can render your document to see how the changes you have made actually look like. To render, click on the Render button ![](..\images\Quarto_Setup_7.jpg){width="32"} . It is also possible to Render on Save ![](/images/Quarto_Setup_8.jpg){width="58" height="11"} by checking the empty box! [ ](/images/Quarto_Setup_9.jpg){width="58" height="11"}.
+You can render your document to see how the changes you have made actually look like. To render, click on the Render button ![](../images/Quarto_Setup_7.jpg){width="32"} . It is also possible to Render on Save ![](../images/Quarto_Setup_8.jpg){width="58" height="11"} by checking the empty box! [ ](../images/Quarto_Setup_9.jpg){width="58" height="11"}.
 
 This is how our document looks like after rendering:
 
@@ -65,4 +65,5 @@ editor: visual
 author: "name of the author"
 ---
 ```
-To find the full list of YAML attributes refer to the Quarto documentation, [here](href: https://quarto.org/docs/reference/formats/html.html).
+
+To find the full list of YAML attributes refer to the Quarto documentation, [here](href:%20https://quarto.org/docs/reference/formats/html.html).
