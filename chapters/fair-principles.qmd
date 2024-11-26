@@ -1,6 +1,5 @@
 ---
 title: "The FAIR Framework"
-abstract: "What are FAIR principles? Can OER (Open Educational Resources) be FAIR?"
 abstract: |
   What are FAIR principles?
   Can OER (Open Educational Resources) be FAIR?
@@ -8,7 +7,6 @@ abstract: |
 
 # The FAIR Framework
 
-Since science has transitioned from pens and paper to keyboards and monitors, developing a suitable and appropriate approach to archiving, reproducing, sharing, and collaborating on scientific outputs seems inevitable. One of the most well-known frameworks developed by @wilkinson2016 to define best practices in research data management is the **FAIR** principles. FAIR stands for ***Findable***, ***Accessible***, ***Interoperable***, and ***Reusable***. The FAIR principles serve as a guide to achieving better data management. They enable data to be ***machine actionable***, meaning they equip autonomous computational systems with detailed, structured information while exploring the data.
 Since science has transitioned from pens and paper to keyboards and monitors, developing a suitable and appropriate approach to archiving, reproducing, sharing, and collaborating on scientific outputs seems inevitable.
 One of the most well-known frameworks developed by @wilkinson2016 to define best practices in research data management is the **FAIR** principles. FAIR stands for ***Findable***, ***Accessible***, ***Interoperable***, and ***Reusable***.
 The FAIR principles serve as a guide to achieving better data management.
