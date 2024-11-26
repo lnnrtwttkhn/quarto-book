@@ -2,7 +2,7 @@
 
 First and foremost, Quarto is a publishing system. Therefore, it has the flexibility to format text in various ways. It is possible to write in visual or source modes. In visual editor no syntax is involved to change the style of text, as opposed to, source. Below you can see the tables that introduce the syntax related to a specific style such as bold, italic, etc.
 
-#### Bold, Italic, and more...
+## Bold, Italic, and more... {.unnumbered}
 
 +----------------------+----------------------+
 | Syntax               | Output               |
@@ -37,37 +37,37 @@ First and foremost, Quarto is a publishing system. Therefore, it has the flexibi
 +----------------------+----------------------+
 
 
-### Headings
+## Headings {.unnumbered}
 
-+-----------------+-----------------------------------+
-| Markdown        | Output                            |
-+:===============:+:=================================:+
-| ``` markdown    | # Header 1 {.heading-output}      |
-| # Header 1      |                                   |
-| ```             |                                   |
-+-----------------+-----------------------------------+
-| ``` markdown    | ## Header 2 {.heading-output}     |
-| ## Header 2     |                                   |
-| ```             |                                   |
-+-----------------+-----------------------------------+
-| ``` markdown    | ### Header 3 {.heading-output}    |
-| ### Header 3    |                                   |
-| ```             |                                   |
-+-----------------+-----------------------------------+
-| ``` markdown    | #### Header 4 {.heading-output}   |
-| #### Header 4   |                                   |
-| ```             |                                   |
-+-----------------+-----------------------------------+
-| ``` markdown    | ##### Header 5 {.heading-output}  |
-| ##### Header 5  |                                   |
-| ```             |                                   |
-+-----------------+-----------------------------------+
-| ``` markdown    | ###### Header 6 {.heading-output} |
-| ###### Header 6 |                                   |
-| ```             |                                   |
-+-----------------+-----------------------------------+
++------------------------------+------------------------------+
+| Markdown                     | Output                       |
++:============================:+:=============================+
+| ``` markdown                 | # Header 1 {.unnumbered}     |
+| # Header 1                   |                              |
+| ```                          |                              |
++------------------------------+------------------------------+
+| ``` markdown                 | ## Header 2 {.unnumbered}    |
+| ## Header 2                  |                              |
+| ```                          |                              |
++------------------------------+------------------------------+
+| ``` markdown                 | ### Header 3 {.unnumbered}   |
+| ### Header 3                 |                              |
+| ```                          |                              |
++------------------------------+------------------------------+
+| ``` markdown                 | #### Header 4 {.unnumbered}  |
+| #### Header 4                |                              |
+| ```                          |                              |
++------------------------------+------------------------------+
+| ``` markdown                 | ##### Header 5 {.unnumbered} |
+| ##### Header 5               |                              |
+| ```                          |                              |
++------------------------------+------------------------------+
+| ``` markdown                 | ###### Header 6 {.unnumbered}|
+| ###### Header 6              |                              |
+| ```                          |                              |
++------------------------------+------------------------------+
 
-### Links 
+## Links {.unnumbered}
 
 Links can be added to a Quarto document by simply using <https://quarto.org>. To link a word, the following syntax is used:
 ``` markdown
