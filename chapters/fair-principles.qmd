@@ -1,11 +1,16 @@
 ---
 title: "The FAIR Framework"
-abstract: "What are FAIR principles? Can OER (Open Educational Resources) be FAIR?"
+abstract: |
+  What are FAIR principles?
+  Can OER (Open Educational Resources) be FAIR?
 ---
 
 # The FAIR Framework
 
-Since science has transitioned from pens and paper to keyboards and monitors, developing a suitable and appropriate approach to archiving, reproducing, sharing, and collaborating on scientific outputs seems inevitable. One of the most well-known frameworks developed by @wilkinson2016 to define best practices in research data management is the **FAIR** principles. FAIR stands for ***Findable***, ***Accessible***, ***Interoperable***, and ***Reusable***. The FAIR principles serve as a guide to achieving better data management. They enable data to be ***machine actionable***, meaning they equip autonomous computational systems with detailed, structured information while exploring the data.
+Since science has transitioned from pens and paper to keyboards and monitors, developing a suitable and appropriate approach to archiving, reproducing, sharing, and collaborating on scientific outputs seems inevitable.
+One of the most well-known frameworks developed by @wilkinson2016 to define best practices in research data management is the **FAIR** principles. FAIR stands for ***Findable***, ***Accessible***, ***Interoperable***, and ***Reusable***.
+The FAIR principles serve as a guide to achieving better data management.
+They enable data to be ***machine actionable***, meaning they equip autonomous computational systems with detailed, structured information while exploring the data.
 
 ## What is Findable, Accessible, Interoperable, and Reusable?
 
@@ -91,7 +96,8 @@ Since the FAIR values are principles that guide researchers along their scientif
 With most of the focus being on the FAIRness of the data, not enough attention is paid to the materials that actually educate the future researchers.
 Throughout this guide, we argue that not only research data can be FAIR, but the same principles are also applicable to the teaching materials.
 It means by using the suitable framework, the educational contents produced in numerous institutions around the globe can become FAIR and even go beyond the aforementioned values.
-We rely on two tools that we think are fundamental for making such educational materials, namely Git and Quarto. As this guide focuses on Quarto, [another guide](https://lennartwittkuhn.com/version-control-book) written by [Lennart Wittkuhn](https://lennartwittkuhn.com) and Konrad Pagenstedt (2024) on Git, which is recommended reading, as Quarto and Git can be extremely powerful tools when used together.
+We rely on two tools that we think are fundamental for making such educational materials, namely Git and Quarto.
+As this guide focuses on Quarto, [another guide](https://lennartwittkuhn.com/version-control-book) written by [Lennart Wittkuhn](https://lennartwittkuhn.com) and Konrad Pagenstedt (2024) on Git, which is recommended reading, as Quarto and Git can be extremely powerful tools when used together.
 
 # Reproducibility Checklist
 
