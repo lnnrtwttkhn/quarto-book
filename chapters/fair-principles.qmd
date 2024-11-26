@@ -91,8 +91,59 @@ Since the FAIR values are principles that guide researchers along their scientif
 With most of the focus being on the FAIRness of the data, not enough attention is paid to the materials that actually educate the future researchers.
 Throughout this guide, we argue that not only research data can be FAIR, but the same principles are also applicable to the teaching materials.
 It means by using the suitable framework, the educational contents produced in numerous institutions around the globe can become FAIR and even go beyond the aforementioned values.
-We rely on two tools that we think are fundamental for making such educational materials, namely Git and Quarto. As this guide focuses on Quarto, [another guide](https://lennartwittkuhn.com/version-control-book) written by [Lennart Wittkuhn](https://lennartwittkuhn.com) and Konrad Pagenstedt (2024) on Git, which is recommended reading, as Quarto and Git can be extremely powerful tools when used together.
+
+@garcia2020 introduced 10 rules for developing more accessible training materials.
+
+## Rule 1: Sharing the Materials Online {.unnumbered}
+
+This has several benefits, for example the online materials can get recognition, assist other researchers in the field.
+It is also helpful to the students as they can access the materials regardless of their location.
+Building a dedicated website is also a desirable way to share the teaching materials online.
+In this way, contributing to the content gets easier.
+A website also provides options to make materials interactive. For example, quizzes or exams after each chapter can create opportunities for both the instructor and the student to assess the materials and the knowledge gained.
+This approach has been take in the [Version Control Book](https://lennartwittkuhn.com/version-control-book) by [Lennart Wittkuhn](https://lennartwittkuhn.com) and Konrad Pagenstedt.
+[Data Science in a Box](https://datasciencebox.org/) by [Mine Çetinkaya-Rundel](https://mine-cr.com/) and [R for Psych](https://glennwilliams.me/r4psych/) by [Glenn Williams](https://glennwilliams.me/) are also notable examples that share their materials online in a website.
+
+::: {.callout-caution collapse="false"}
+## Are your materials shared with others? {.unnumbered}
+- [ ] I have shared my materials on a dedicated website.
+- [ ] I have shared my materials on a cloud service (e.g., {{< fa brands google-drive >}} Google Drive, {{< fa brands dropbox >}} Dropbox, {{< fa solid cloud >}} iCloud)
+- [ ] My README file describes the necessary steps to reproduce the materials in the respective folder.
+:::
+
+## Rule 2: Proper Description and Findability {.unnumbered}
+
+Writing extensive metadata for the materials helps with their findability by making them more machine actionable.
+For example, working with a dataset from another researcher in which all the variables and their labels are properly described is much easier and less time consuming than another dataset without such description.
+The same applies for the teaching materials while interacting with computers.
+Appropriate document description is also useful when students want to interact with the materials.
+It acts as a guide through the materials and prevents the audience from confusion.
+
+::: {.callout-caution collapse="false"}
+## How are your materials described? {.unnumbered}
+- [ ] I have a README file for the project.
+- [ ] I have README files for each top level sub-folder.
+- [ ] My README file describes the necessary steps to reproduce the materials in the respective folder.
+:::
+
+## Rule 3: Unique Identity for the Materials {.unnumbered}
+
+## Rule 4: Register your training materials online {.unnumbered}
+
+## Rule 5: Define access rules for your training materials {.unnumbered}
+
+## Rule 6: Use an interoperable format for your training materials {.unnumbered}
+
+## Rule 7: Make your training materials (re)usable for trainers {.unnumbered}
+
+## Rule 8: Make your training materials usable for trainees {.unnumbered}
+
+## Rule 9: Make your training materials contribution friendly {.unnumbered}
+
+## Rule 10: Keep your training materials up-to-date {.unnumbered}
 
 # Reproducibility Checklist
+We rely on two tools that we think are fundamental for making such educational materials, namely Git and Quarto. As this guide focuses on Quarto, [The Version Control Book](https://lennartwittkuhn.com/version-control-book) written by [Lennart Wittkuhn](https://lennartwittkuhn.com) and Konrad Pagenstedt (2024) on Git, which is recommended reading, as Quarto and Git can be extremely powerful tools when used together.
 
-As
+
+
