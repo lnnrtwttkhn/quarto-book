@@ -91,7 +91,7 @@ Since the FAIR values are principles that guide researchers along their scientif
 **R1.3.** (meta)data meet domain-relevant community standards
 :::
 
-# A Bridge from FAIR for Research Data to Educational Resources
+# FAIR Principles for Educational Resources
 
 With most of the focus being on the FAIRness of the data, not enough attention is paid to the materials that actually educate the future researchers.
 Throughout this guide, we argue that not only research data can be FAIR, but the same principles are also applicable to the teaching materials.
@@ -110,13 +110,13 @@ This approach has been take in the [Version Control Book](https://lennartwittkuh
 [Data Science in a Box](https://datasciencebox.org/) by [Mine Çetinkaya-Rundel](https://mine-cr.com/) and [R for Psych](https://glennwilliams.me/r4psych/) by [Glenn Williams](https://glennwilliams.me/) are also notable examples that share their materials online in a website.
 
 ::: {.callout-caution collapse="false"}
-## Are your materials shared with others? {.unnumbered}
+## How are your materials shared with others? {.unnumbered}
 - [ ] I have shared my materials on a dedicated website.
 - [ ] I have shared my materials on a cloud service (e.g., {{< fa brands google-drive >}} Google Drive, {{< fa brands dropbox >}} Dropbox, {{< fa solid cloud >}} iCloud)
 - [ ] My README file describes the necessary steps to reproduce the materials in the respective folder.
 :::
 
-## Rule 2: Proper Description and Findability {.unnumbered}
+## Rule 2: Proper Description for Findability {.unnumbered}
 
 Writing extensive metadata for the materials helps with their findability by making them more machine actionable.
 For example, working with a dataset from another researcher in which all the variables and their labels are properly described is much easier and less time consuming than another dataset without such description.
@@ -132,6 +132,25 @@ It acts as a guide through the materials and prevents the audience from confusio
 :::
 
 ## Rule 3: Unique Identity for the Materials {.unnumbered}
+You have probably encountered a situation where clicking on a link in a research paper does not navigate you to the intended web destination.
+One possible explanation for such an issue could be *link rot*.
+Link rot means that links no longer work due to the relocation or permanent unavailability of a webpage, file, or whatever they are pointing to.
+This happens because the links don't possess persistent identifiers (PIDs) such as a Digital Object Identifier (DOI).
+PIDs guarantee that the link won't be rotten and will always be accessible.
+There are services that provide PIDs.
+For example, Open Researcher and Contributor ID (ORCID) and Zenodo (see the chapter on Zenodo) provide free PIDs.
+Using PIDs and registering your work with these service providers contributes to greater recognition of your materials as well.
+
+::: {.callout-note collapse="false}
+## How does Zenodo work?
+To find out how to get a DOI on Zenodo, read the chapter on Zenodo.
+:::
+
+::: {.callout-caution collapse="false"}
+## How do you protect your material from link rot? {.unnumbered}
+- [ ]  I have registered my materials on Zenodo and obtained a DOI.
+- [ ] I share my work via ORCID.
+:::
 
 ## Rule 4: Register your training materials online {.unnumbered}
 
