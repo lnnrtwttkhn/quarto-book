@@ -34,6 +34,7 @@ book:
     - summary.qmd
     - references.qmd
     - acknowledgements.qmd
+    - chapters/contributing.qmd
   sidebar:
     id: sidebar
     title: "{{< var project.title >}}"
@@ -104,3 +105,6 @@ format:
     link-external-newwindow: true
     footnotes-hover: true
     include-after-body: plausible.html
+
+metadata-files:
+  - _metadata.yml

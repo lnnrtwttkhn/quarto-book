@@ -22,7 +22,7 @@ deploy: clean images
 
 .PHONY: images
 images:
-	wget $(IMAGES_URL) -O $(IMAGES_ARCHIVE)
+	curl $(IMAGES_URL) -o $(IMAGES_ARCHIVE)
 	unzip -j -o $(IMAGES_ARCHIVE) -d $(IMAGES_DIR)
 	rm -f $(IMAGES_ARCHIVE)
 
