@@ -76,67 +76,6 @@ This command generates the final output based on the specified format in the YAM
 **Where to run these commands**:
 Open your terminal or command prompt and navigate to the directory where your Quarto file (e.g., your-document.qmd) is located. 
 
-## Markdown Basics
-
-Quarto uses Markdown, a lightweight markup language, for formatting text. 
-Markdown is easy to learn and widely used in various platforms, including GitHub, Slack, and RStudio.
-
-### Text Formatting
-
-Markdown allows you to easily format text. Here are some common formatting options:
-
-- **Bold:** `**bold text**`
-- **Italic:** `*italicized text*`
-- **Code:** `` `code` ``
-- **Blockquote:** `> blockquote`
-
-### Lists
-
-Markdown supports both ordered and unordered lists:
-
-- **Unordered list:**
-  ```markdown
-  - Item 1
-  - Item 2
-  - Item 3
-  ```
-
-- **Ordered list:**
-  ```markdown
-  1. First item
-  2. Second item
-  3. Third item
-  ```
-
-### Tables
-
-You can create tables in Markdown using the following syntax:
-
-```markdown
-| Header 1 | Header 2 |
-|----------|----------|
-| Cell 1   | Cell 2   |
-| Cell 3   | Cell 4   |
-```
-
-### Equations
-
-Quarto supports LaTeX syntax for rendering mathematical equations:
-
-- **Inline math:** `$E = mc^{2}$`
-- **Display math:**
-  ```latex
-  $$E = mc^{2}$$
-  ```
-
-### Links and Images
-
-You can easily add links and images in Markdown:
-
-- **Link:** `[Link Text](http://example.com)`
-- **Image:** `![Alt Text](http://example.com/image.jpg)`
-
-
 ## Useful features
 
 ### YAML Header
@@ -153,23 +92,6 @@ format: html
 theme: default
 ---
 ```
-
-### Code Chunks
-
-One of the key features of Quarto is the ability to include executable code chunks within your document. 
-These chunks can be written in various programming languages and are executed during rendering.
-
-#### Example Code Chunk:
-
-```{r filename = "Code"}
-# Example Code Chunk
-# This is an R code chunk that generates a scatter plot
-x <- c(1, 2, 3, 4, 5)
-y <- c(2, 4, 1, 3, 5)
-plot(x, y, main = "Scatter Plot Example", xlab = "X-Axis", ylab = "Y-Axis")
-```
-
-This code will be executed when the document is rendered, and the output (a scatter plot) will be included in the final document.
 
 ## Git Integration
 
