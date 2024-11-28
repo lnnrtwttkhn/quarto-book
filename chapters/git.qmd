@@ -1,9 +1,11 @@
 ---
 categories: [beginner, basics]
-abstract: "This chapter will be an introduction to Git"
+abstract: "This chapter will is an introduction to Git"
 ---
 
 # Quick Git Tutorial
+Using Git with Quarto adds significant flexibility and enhances the FAIRness of your materials.
+Here, we present a quick Git tutorial.
 
 ## What Git Can Do
 
