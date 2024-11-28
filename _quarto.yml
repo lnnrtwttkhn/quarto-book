@@ -26,7 +26,11 @@ book:
   chapters:
     - index.qmd
     - contents.qmd
+    - chapters/approach.qmd
     - chapters/intro.qmd
+    - chapters/installation.qmd
+    - chapters/setup.qmd
+    - chapters/texts-images-tables.qmd
     - summary.qmd
     - references.qmd
     - acknowledgements.qmd
@@ -81,6 +85,8 @@ citation-location: document
 citeproc: true
 from: markdown+emoji
 license: CC BY
+metadata-files:
+  - _metadata.yml
 
 format:
   html:

@@ -1,0 +1,74 @@
+---
+title: "Getting Started"
+---
+
+## Your first project with Quarto
+
+On the same page that you downloaded the Quarto installer, you can find different tools to get started with.
+RStudio is our preferred tool because of its capabilities and well-structured integration with Quarto and other tools such as Git.
+Feel free to use other tools like *VS Code, Jupyter, Neovim* or even a simple *Text Editor* if you want.
+
+![](../images/Quarto_Installation_8.jpg)
+
+To open a Quarto document in RStudio follow the steps below:
+
+1.  Open RStudio.
+If you don't have RStudio installed download it [here](https://posit.co/downloads/).
+You can find the RStudio's installation guide [here](https://docs.posit.co/ide/desktop-pro/getting_started/installation.html) as well.
+
+2.  On the toolbar click on ***new document icon***.
+Then you will see several options.
+
+3.  To open a Quarto document click on ***Quarto document... icon*****.**
+
+![](../images/Quarto_Installation_7.jpg){width="187"}
+
+4.  Congratulations! You have opened your first `.qmd` file. It should look like this: ***an image of an empty qmd document*****.** ![](../images/Quarto_Setup_2.jpg)
+
+From now on you can add text, images, code, tables to your document, whether in **Visual** or **Source** environment.
+
+![Quarto Document in Visual Mode](../images/Quarto_Setup_3.jpg)
+
+![Quarto Document in Source Mode](../images/Quarto_Setup_4.jpg)
+
+You can render your document to see how the changes you have made actually look like.
+To render, click on the Render button ![](..\images\Quarto_Setup_7.jpg){width="32"}.
+It is also possible to Render on Save ![](/images/Quarto_Setup_8.jpg){width="58" height="11"} by checking the empty box! [ ](/images/Quarto_Setup_9.jpg){width="58" height="11"}.
+
+This is how our document looks like after rendering:
+
+Here you can write whatever you want! And even format it in **bold**, *italic*, as a [link](https://quarto.org/).
+
+1.  Incremental list
+2.  Incremental list
+3.  Incremental list
+4.  Incremental list
+
+Do you want to show code? No problem!
+
+```{r filename="Code"}
+# This is an executable code chunk in R language.
+a <- 1
+b <- 2
+c <- a + b
+print(c)
+```
+
+Quarto offers many more features as well, which we'll learn together in the course of this documentation.
+
+## YAML Header
+
+In Quarto you can set attributes to the document you are working on.
+YAML header is where one writes these attributes and is defined by `---` in the beginning of the document.
+By default, Quarto sets up a YAML header for every `.qmd` file.
+We can modify that, for example by adding a subtitle, or the author.
+
+```yaml
+---
+title: "Quarto Document"
+subtitle: "Hello Quarto!"
+editor: visual
+author: "Name of the author"
+---
+```
+To find the full list of YAML attributes refer to the Quarto documentation, [here](https://quarto.org/docs/reference/formats/html.html).
