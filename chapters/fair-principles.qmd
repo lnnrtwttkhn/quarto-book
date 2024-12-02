@@ -2,7 +2,7 @@
 title: "The FAIR Framework"
 abstract: |
   What are FAIR principles?
-  Can OER (Open Educational Resources) be FAIR?
+  How can open educational resources be FAIR?
 ---
 
 # The FAIR Framework
@@ -109,7 +109,7 @@ A website also provides options to make materials interactive. For example, quiz
 This approach has been take in the [Version Control Book](https://lennartwittkuhn.com/version-control-book) by [Lennart Wittkuhn](https://lennartwittkuhn.com) and Konrad Pagenstedt.
 [Data Science in a Box](https://datasciencebox.org/) by [Mine Çetinkaya-Rundel](https://mine-cr.com/) and [R for Psych](https://glennwilliams.me/r4psych/) by [Glenn Williams](https://glennwilliams.me/) are also notable examples that share their materials online in a website.
 
-::: {.callout-caution collapse="false"}
+::: {.callout-caution collapse="true"}
 ## How are your materials shared with others? {.unnumbered}
 - [ ] I have shared my materials on a dedicated website.
 - [ ] I have shared my materials on a cloud service (e.g., {{< fa brands google-drive >}} Google Drive, {{< fa brands dropbox >}} Dropbox, {{< fa solid cloud >}} iCloud)
@@ -124,7 +124,7 @@ The same applies for the teaching materials while interacting with computers.
 Appropriate document description is also useful when students want to interact with the materials.
 It acts as a guide through the materials and prevents the audience from confusion.
 
-::: {.callout-caution collapse="false"}
+::: {.callout-caution collapse="true"}
 ## How are your materials described? {.unnumbered}
 - [ ] I have a README file for the project.
 - [ ] I have README files for each top level sub-folder.
@@ -141,33 +141,155 @@ There are services that provide PIDs.
 For example, Open Researcher and Contributor ID (ORCID) and Zenodo (see the chapter on Zenodo) provide free PIDs.
 Using PIDs and registering your work with these service providers contributes to greater recognition of your materials as well.
 
-::: {.callout-note collapse="false}
+::: {.callout-note collapse="true}
 ## How does Zenodo work?
 To find out how to get a DOI on Zenodo, read the chapter on Zenodo.
 :::
 
-::: {.callout-caution collapse="false"}
+::: {.callout-caution collapse="true"}
 ## How do you protect your material from link rot? {.unnumbered}
-- [ ]  I have registered my materials on Zenodo and obtained a DOI.
+- [ ] I have registered my materials on Zenodo and obtained a DOI.
 - [ ] I share my work via ORCID.
 :::
 
 ## Rule 4: Register your training materials online {.unnumbered}
+To make the materials even more findable, online registration offers a valuable opportunity.
+A good example of rich metadata description is used on
+A general platform for online registration of the materials is the [Open Educational Resources Initiative](https://asccc-oeri.org/).
+Based on the audience of the materials, there are online platforms that host specific materials.
+Online registration via tools like TeSS (Training eSupport System), which is focused on life sciences
+In psychology, it is possible to register your work on Society for the Teaching of Psychology [STP]({{< var links.STP >}}).
+
+::: {.callout-caution collapse="true"}
+## Do you register your work online? {.unnumbered}
+- [ ] I have registered my materials on OERI, TeSS, STP or similar platforms.
+:::
+
 
 ## Rule 5: Define access rules for your training materials {.unnumbered}
+Although we promote the openness of teaching materials, there may be situations in which one doesn't want to share the materials openly.
+For example, the materials may be crafted specifically for a particular institution, or only certain members of a university may access the materials.
+In these cases, it is important to clearly state the access levels and how one can request access to the materials.
+This description should contain information about whether the materials are free or paid, or if there is a way to authenticate access to the materials.
+It is also necessary to clarify accessibility in the metadata, even if the material is openly accessible to everyone and shared on the web.
+
+::: {.callout-caution collapse="true"}
+## How do you deal with the access rules for your materials? {.unnumbered}
+- [ ] I clearly state the access level on the dedicated website for the materials.
+- [ ] My materials require a specific membership, so I have set up authentication steps for the members.
+- [ ] My materials are free and open access, but I have still described the accessibility level in their metadata.
+:::
+
 
 ## Rule 6: Use an interoperable format for your training materials {.unnumbered}
 
-## Rule 7: Make your training materials (re)usable for trainers {.unnumbered}
+FAIR principles try to guarantee the interoperability of the materials.
+Most university lectures and seminars are accompanied by a series of slides, scripts, research papers and other types of digital contents.
+Interoperibility makes sure that one content can be used and developed in another context than its original one.
+For instance, slides are mostly developed with Microsoft PowerPoint.
+However, PowerPoint documents are limited to Windows and MacOS users, are susceptible to incompatibility with older versions of the software, need the same fonts on all the computers to run properly, are not open-source, and can't be easily used for collaboration and version control.
+There are other formats such as PDF, Keynote, online versions of Microsoft Office, that more or less have the same problems as PowerPoint documents.
+To remedy the aforementioned issues, one can use LaTeX typesetting system or markdown tools.
+LaTeX, RMarkdown, and more recently Quarto are the tools that show how choosing the correct text formatting system contributes to the FAIRness of the materials.
+However, we should not forget that these formats have their own weaknesses such as having a relatively steep learning curve and doing their best when online which maybe limiting.
 
-## Rule 8: Make your training materials usable for trainees {.unnumbered}
+::: {.callout-note collapse="true"}
+### PowerPoint, PDF, TeX, or Markdown?
 
-## Rule 9: Make your training materials contribution friendly {.unnumbered}
+Here is a detailed comparison between different tools used to create and present educational content by @garcia2020
 
-## Rule 10: Keep your training materials up-to-date {.unnumbered}
+| **Format**             | **Advantages**                                                                  | **Disadvantages**                                                                                                                     |
+|------------------------|---------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
+| **PPT and PPTX**       | • Easily (re)usable<br>• Available to multiple OSs/Software<br>• Widespread<br> | • Limited way to provide detailed training instructions<br>• Not version controlled<br>                                               |
+| **Keynote**            | • Polished overall aesthetic                                                    | • Limited to macOS family<br>• Not version controlled<br>                                                                             |
+| **PDF**                | • Can be displayed identically in any environment                               | • Not easily editable<br>• Not version controlled                                                                                     |
+| **TeX**                | • Easily editable<br>• Version controlled<br>• Free                             | • Steep learning curve for trainers                                                                                                   |
+| **MD, RST, and, HTML** | • Version controlled <br>• Free                                                 | • Rendering (need templating to transform into HTML)<br>                                                                              |
+| **Google slides**      | • Version controlled<br>• Free                                                  | • Not always possible to use owing to local/ institutional policies<br>• Not always accessible (depending on geographic location)<br> |
 
-# Reproducibility Checklist
-We rely on two tools that we think are fundamental for making such educational materials, namely Git and Quarto. As this guide focuses on Quarto, [The Version Control Book](https://lennartwittkuhn.com/version-control-book) written by [Lennart Wittkuhn](https://lennartwittkuhn.com) and Konrad Pagenstedt (2024) on Git, which is recommended reading, as Quarto and Git can be extremely powerful tools when used together.
+
+*MD, Markdown; PDF, Portable Document Format; PPT, PowerPoint; PPTX, PowerPoint Open XML Presentation;
+RST, reStructuredText*
+
+:::
+
+::: {.callout-caution collapse="true"}
+## How do you make your material more interoperable? {.unnumbered}
+- [ ] I use version controlled Markdown tools.
+- [ ] My materials can be (re)used across multiple operating systems.
+- [ ] I enhance the materials' interoperability by including instructions.
+:::
+
+## Rule 7: Make it (RE)Useable for the Trainers {.unnumbered}
+Choosing the appropriate tool to develop the materials is important, but, what if we make it even easier for others to (re)use our content?
+Licensing is a broad topic covered in **CAHPTER ON LICENSES**.
+In short, licenses let others know to what extent they are allowed to (re)use, modify, take inspirations from your work.
+Universities and other institutions may have their own regulations for the materials developed by their affiliates.
+This may limit the reach of your materials but stating and sticking to it is necessary.
+The most used license for free and open access materials is the Creative Common (CC) license.
+It grants rights to others to (re)use the materials.
+Licensing is also important for getting recognition for your work and the way it should be cited.
+
+::: {.callout-caution collapse="true"}
+## How do you make your materials (re)usable?
+- [ ] I have chosen the correct license and stated that in the metadata.
+- [ ] I stated how my material should be cited.
+- [ ] I have reviewed my institution's regulations regarding licensing materials.
+:::
+
+## Rule 8: Don't Forget the Trainees {.unnumbered}
+When developing the materials we always have the audience in mind.
+After all, the material is going to help the trainees with learning a new skill and transfer knowledge.
+Below, is a list of metadata, suggested by @garcia2020 that orients the trainees before, while, and after dealing with the materials.
+
+| **Type of metadata**              | **What to include**                                                                                                                                       |
+|-----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Title**                         | Title of the training material.                                                                                                                           |
+| **Contact details**               | Author(s) name and contact details.                                                                                                                       |
+| **Licensing and (re)use details** | License under which the materials are shared, and rules and conditions for (re)use and<br>contribution.<br>                                               |
+| **Preferred citation**            | Instructions on how to cite your material.<br>                                                                                                            |
+| **Description **                  | Overview of the subject matter, aims of the training, and language in which the training is delivered.                                                    |
+| **Learning outcomes**             | Statements that indicate what trainees should be able to do upon successful completion of the training.                                                   |
+| **Target audience**               | The intended audience, their prerequisite knowledge and skills, their general background, and how the training material will help them.                   |
+| **Required resources**            | Technical resources and related materials (software requirements, datasets, infrastructure requirements, etc.).                                           |
+| **Keyword **                      | Keywords or tags identifying the topic of the materials.                                                                                                  |
+| **Structure and duration**        | Description of the structure of the materials and setting in which to deliver them, including the time allocated to each part (lectures, exercises, etc.) |
+| **Additional information**        | Items that provide additional information about (re)use and delivery of the materials (e.g., general tips and guidance).                                  |
+| **Links and references**          | Links and references that are relevant to the content but not required for delivery of the materials.                                                     |
+| **Date of last revision**         | Date of last update of the materials and the version.                                                                                                     |
+
+## Rule 9: Make it Contribution Firendly {.unnumbered}
+Contribution is a mean of improving the materials.
+Others may offer new perspectives, find issues, suggest recommendation for enhancement, etc.
+Using a CONTRIBUTION file, you can clearly guide users to contribute to your work and define how they should contribute.
+A well-known contribution-friendly environment is GitHub, which provides numerous tools for cooperation.
+Also, contribution must be acknowledged.
+
+::: {.callout-caution collapse="true"}
+## Is your material contribution friendly?
+- [ ] I have created a CONTRIBUTION file.
+- [ ] I thank and acknowledge the contributors.
+- [ ] I use GitHub or similar platforms to keep my materials contribution-friendly.
+:::
+
+## Rule 10: Keep the Materials Up-to-date {.unnumbered}
+Depending on the materials, they may need to be updated.
+You have to keep track of the changes in your materials throughout the time.
+The older versions should be archived, the changes should be stated, and if needed the PIDs should be updated as well.
+Following the previous rules makes it extremely easy to keep your materials up-to-date.
+Also, tools like Quarto and Git make it easy to update the materials and share it across different platforms.
+
+::: {.callout-caution collapse="true"}
+## How do you update your materials?
+- [ ] I archive the older versions.
+- [ ] I clearly document the changes made in each updated version.
+- [ ] I keep the PIDs updated.
+- [ ] I organize my materials in a way to make the updating process as easy as possible.
+:::
+
+## Final Word {.unnumbered}
+We rely on two tools that we think are fundamental for making such educational materials, namely Git and Quarto, which relatively guaranteed the FAIRness of the materials, if used properly.
+As this guide focuses on Quarto, [The Version Control Book](https://lennartwittkuhn.com/version-control-book) written by [Lennart Wittkuhn](https://lennartwittkuhn.com) and Konrad Pagenstedt (2024) on Git, which is recommended reading, as Quarto and Git can be extremely powerful tools when used together.
 
 
 
