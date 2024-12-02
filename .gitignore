@@ -5,3 +5,4 @@
 /.quarto/
 /images/
 /_book/
+*.html
