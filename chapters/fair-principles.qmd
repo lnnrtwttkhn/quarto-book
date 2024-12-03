@@ -5,14 +5,14 @@ abstract: |
   How can open educational resources be FAIR?
 ---
 
-# The FAIR Framework
+# The FAIR Framework 
 
 Since science has transitioned from pens and paper to keyboards and monitors, developing an appropriate approach to archiving, reproducing, sharing, and collaborating on scientific outputs seems inevitable.
 One of the most well-known frameworks developed by @wilkinson2016 to define best practices in research data management are the **FAIR** principles. FAIR stands for ***Findable***, ***Accessible***, ***Interoperable***, and ***Reusable***.
 The FAIR principles serve as a guide to achieving better data management.
 They enable data to be ***machine actionable***, meaning they equip autonomous computational systems with detailed, structured information while analyzing and processing the data.
 
-## What is Findable, Accessible, Interoperable, and Reusable?
+## What is Findable, Accessible, Interoperable, and Reusable? {.unnumbered}
 
 According to the FAIR principles:
 
@@ -91,7 +91,7 @@ Since the FAIR values are principles that guide researchers along their scientif
 **R1.3.** (meta)data meet domain-relevant community standards
 :::
 
-# FAIR Principles for Educational Resources
+# FAIR Principles for Educational Resources {.unnumbered}
 
 With most of the focus being on the FAIRness of the data, not enough attention is paid to the materials that actually educate future researchers.
 Throughout this guide, we argue that not only can research data be FAIR, but the same principles are also applicable to teaching materials.
@@ -284,13 +284,30 @@ Also, tools like Quarto and Git make it easy to update the materials and share t
 - [ ] I organize my materials in a way to make the updating process as easy as possible.
 :::
 
+## What is Missing from FAIR Principles? {.unnumbered}
+FAIR principles emphasize the importance of registering, sharing, and describing materials.
+These values also offer clear steps on how to implement them.
+The part which seems to be missing is the collaboration.
+Although interoperability and reusability are the closer concepts to collaboration, they don't provide enough information on the actual collaboration process in research.
+These principles seem passive, meaning they put emphasis on the research data which have been produced and now researchers want to (re)use or reproduce them.
+The process of research and also developing teaching materials is a dynamic procedure.
+This can't be completely achieved by only adhering to the FAIR principles.
+In this guide, we also encourage collaborative work, not only in our words, but also through action.
+We developed this guide within a FAIR and collaborative workflow.
+
+::: {.callout-caution collapse="true"}
+## How collaboration-friendly are your materials?
+- [ ] I use Git or similar platforms.
+- [ ] I provide enough metadata for other collaborators.
+:::
+
 ## Why Quarto? {.unnumbered}
 We rely on two tools that we think are fundamental for making such educational materials, namely Git and Quarto, which can relatively guarantee the FAIRness of the materials, if used properly.
-Quarto can create slides, websites, and books with different output formats like HTML, PDF, and PPTX.
+Quarto can create slides, websites, and books with different output formats like HTML, PDF, ePUB, PPTX, etc.
 Even PowerPoint slides can be converted into `.qmd` files.
 Since Quarto documents are text-based, nearly every computer can open and interact with them, as opposed to PowerPoint documents that might be incompatible with older systems and versions of Microsoft Office.
 Version controllability is also another advantage of Quarto over PowerPoint and similar software.
-Quarto offers features like variables, YML formatting, code execution, and interactivity that are not available in other tools.
+Quarto offers features like variables, YML formatting, code execution in multiple languages, informative syntax errors, and interactivity that are not available in other tools.
 As this guide focuses on Quarto, [The Version Control Book](https://lennartwittkuhn.com/version-control-book) by [Lennart Wittkuhn](https://lennartwittkuhn.com) and Konrad Pagenstedt (2024) on Git is recommended reading, as Quarto and Git can be extremely powerful tools when used together.
 
 
