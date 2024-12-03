@@ -7,10 +7,10 @@ abstract: |
 
 # The FAIR Framework
 
-Since science has transitioned from pens and paper to keyboards and monitors, developing a suitable and appropriate approach to archiving, reproducing, sharing, and collaborating on scientific outputs seems inevitable.
-One of the most well-known frameworks developed by @wilkinson2016 to define best practices in research data management is the **FAIR** principles. FAIR stands for ***Findable***, ***Accessible***, ***Interoperable***, and ***Reusable***.
+Since science has transitioned from pens and paper to keyboards and monitors, developing an appropriate approach to archiving, reproducing, sharing, and collaborating on scientific outputs seems inevitable.
+One of the most well-known frameworks developed by @wilkinson2016 to define best practices in research data management are the **FAIR** principles. FAIR stands for ***Findable***, ***Accessible***, ***Interoperable***, and ***Reusable***.
 The FAIR principles serve as a guide to achieving better data management.
-They enable data to be ***machine actionable***, meaning they equip autonomous computational systems with detailed, structured information while exploring the data.
+They enable data to be ***machine actionable***, meaning they equip autonomous computational systems with detailed, structured information while analyzing and processing the data.
 
 ## What is Findable, Accessible, Interoperable, and Reusable?
 
@@ -93,21 +93,20 @@ Since the FAIR values are principles that guide researchers along their scientif
 
 # FAIR Principles for Educational Resources
 
-With most of the focus being on the FAIRness of the data, not enough attention is paid to the materials that actually educate the future researchers.
-Throughout this guide, we argue that not only research data can be FAIR, but the same principles are also applicable to the teaching materials.
-It means by using the suitable framework, the educational contents produced in numerous institutions around the globe can become FAIR and even go beyond the aforementioned values.
-
+With most of the focus being on the FAIRness of the data, not enough attention is paid to the materials that actually educate future researchers.
+Throughout this guide, we argue that not only can research data be FAIR, but the same principles are also applicable to teaching materials.
+By using a suitable framework, the educational content produced in numerous institutions around the globe can become FAIR and even exceed these values.
 @garcia2020 introduced 10 rules for developing more accessible training materials.
 
 ## Rule 1: Sharing the Materials Online {.unnumbered}
 
-This has several benefits, for example the online materials can get recognition, assist other researchers in the field.
+This has several benefits, for example, online materials can gain recognition and assist other researchers in the field.
 It is also helpful to the students as they can access the materials regardless of their location.
 Building a dedicated website is also a desirable way to share the teaching materials online.
-In this way, contributing to the content gets easier.
+In this way, contributing to the content becomes easier.
 A website also provides options to make materials interactive. For example, quizzes or exams after each chapter can create opportunities for both the instructor and the student to assess the materials and the knowledge gained.
-This approach has been take in the [Version Control Book](https://lennartwittkuhn.com/version-control-book) by [Lennart Wittkuhn](https://lennartwittkuhn.com) and Konrad Pagenstedt.
-[Data Science in a Box](https://datasciencebox.org/) by [Mine Çetinkaya-Rundel](https://mine-cr.com/) and [R for Psych](https://glennwilliams.me/r4psych/) by [Glenn Williams](https://glennwilliams.me/) are also notable examples that share their materials online in a website.
+This approach has been taken in the [Version Control Book](https://lennartwittkuhn.com/version-control-book) by [Lennart Wittkuhn](https://lennartwittkuhn.com) and Konrad Pagenstedt.
+[Data Science in a Box](https://datasciencebox.org/) by [Mine Çetinkaya-Rundel](https://mine-cr.com/) and [R for Psych](https://glennwilliams.me/r4psych/) by [Glenn Williams](https://glennwilliams.me/) are also notable examples that share their materials online on a website.
 
 ::: {.callout-caution collapse="true"}
 ## How are your materials shared with others? {.unnumbered}
@@ -119,10 +118,10 @@ This approach has been take in the [Version Control Book](https://lennartwittkuh
 ## Rule 2: Proper Description for Findability {.unnumbered}
 
 Writing extensive metadata for the materials helps with their findability by making them more machine actionable.
-For example, working with a dataset from another researcher in which all the variables and their labels are properly described is much easier and less time consuming than another dataset without such description.
-The same applies for the teaching materials while interacting with computers.
+For example, working with a dataset from another researcher in which all the variables and their labels are properly described is much easier and less time-consuming than another dataset without such description.
+The same applies to teaching materials designed for interaction with computers.
 Appropriate document description is also useful when students want to interact with the materials.
-It acts as a guide through the materials and prevents the audience from confusion.
+It acts as a guide through the materials and prevents confusion for the audience.
 
 ::: {.callout-caution collapse="true"}
 ## How are your materials described? {.unnumbered}
@@ -136,12 +135,11 @@ You have probably encountered a situation where clicking on a link in a research
 One possible explanation for such an issue could be *link rot*.
 Link rot means that links no longer work due to the relocation or permanent unavailability of a webpage, file, or whatever they are pointing to.
 This happens because the links don't possess persistent identifiers (PIDs) such as a Digital Object Identifier (DOI).
-PIDs guarantee that the link won't be rotten and will always be accessible.
-There are services that provide PIDs.
-For example, Open Researcher and Contributor ID (ORCID) and Zenodo (see the chapter on Zenodo) provide free PIDs.
-Using PIDs and registering your work with these service providers contributes to greater recognition of your materials as well.
+PIDs guarantee that the link won't become invalid and will always be accessible.
+Services like Open Researcher and Contributor ID (ORCID) and Zenodo (see the chapter on Zenodo) provide free PIDs.
+Using PIDs and registering your work with these service providers contributes to greater recognition of your materials.
 
-::: {.callout-note collapse="true}
+::: {.callout-note collapse="true"}
 ## How does Zenodo work?
 To find out how to get a DOI on Zenodo, read the chapter on Zenodo.
 :::
@@ -154,11 +152,10 @@ To find out how to get a DOI on Zenodo, read the chapter on Zenodo.
 
 ## Rule 4: Register your training materials online {.unnumbered}
 To make the materials even more findable, online registration offers a valuable opportunity.
-A good example of rich metadata description is used on
-A general platform for online registration of the materials is the [Open Educational Resources Initiative](https://asccc-oeri.org/).
+A general platform for online registration is the [Open Educational Resources Initiative](https://asccc-oeri.org/).
 Based on the audience of the materials, there are online platforms that host specific materials.
-Online registration via tools like TeSS (Training eSupport System), which is focused on life sciences
-In psychology, it is possible to register your work on Society for the Teaching of Psychology [STP]({{< var links.STP >}}).
+"Online registration can also be done via tools like TeSS (Training eSupport System), which is focused on life sciences.
+In psychology, it is possible to register your work with the Society for the Teaching of Psychology [STP]({{< var links.STP >}}).
 
 ::: {.callout-caution collapse="true"}
 ## Do you register your work online? {.unnumbered}
@@ -167,11 +164,11 @@ In psychology, it is possible to register your work on Society for the Teaching 
 
 
 ## Rule 5: Define access rules for your training materials {.unnumbered}
-Although we promote the openness of teaching materials, there may be situations in which one doesn't want to share the materials openly.
-For example, the materials may be crafted specifically for a particular institution, or only certain members of a university may access the materials.
+Although we promote the openness of teaching materials, there may be situations in which one may not want to share the materials openly.
+For example, the materials may be crafted specifically for a particular institution, or access is restricted to certain members of a university.
 In these cases, it is important to clearly state the access levels and how one can request access to the materials.
-This description should contain information about whether the materials are free or paid, or if there is a way to authenticate access to the materials.
-It is also necessary to clarify accessibility in the metadata, even if the material is openly accessible to everyone and shared on the web.
+This description should contain information about whether the materials are free or paid, and whether there is a way to authenticate access to the materials.
+It is also necessary to clarify accessibility in the metadata, even if the materials are openly accessible to everyone and shared on the web.
 
 ::: {.callout-caution collapse="true"}
 ## How do you deal with the access rules for your materials? {.unnumbered}
@@ -184,14 +181,14 @@ It is also necessary to clarify accessibility in the metadata, even if the mater
 ## Rule 6: Use an interoperable format for your training materials {.unnumbered}
 
 FAIR principles try to guarantee the interoperability of the materials.
-Most university lectures and seminars are accompanied by a series of slides, scripts, research papers and other types of digital contents.
-Interoperibility makes sure that one content can be used and developed in another context than its original one.
+Most university lectures and seminars are accompanied by a series of slides, scripts, research papers and other types of digital content.
+Interoperibality makes sure that one piece of content can be used and developed in another context than its original one.
 For instance, slides are mostly developed with Microsoft PowerPoint.
 However, PowerPoint documents are limited to Windows and MacOS users, are susceptible to incompatibility with older versions of the software, need the same fonts on all the computers to run properly, are not open-source, and can't be easily used for collaboration and version control.
-There are other formats such as PDF, Keynote, online versions of Microsoft Office, that more or less have the same problems as PowerPoint documents.
-To remedy the aforementioned issues, one can use LaTeX typesetting system or markdown tools.
+There are other formats such as PDF, Keynote, online versions of Microsoft Office that more or less have the same problems as PowerPoint documents.
+To remedy the aforementioned issues, one can use the LaTeX typesetting system or markdown tools.
 LaTeX, RMarkdown, and more recently Quarto are the tools that show how choosing the correct text formatting system contributes to the FAIRness of the materials.
-However, we should not forget that these formats have their own weaknesses such as having a relatively steep learning curve and doing their best when online which maybe limiting.
+However, we should not forget that these formats have their own weaknesses such as having a relatively steep learning curve and being the most effective when online, which may be limiting.
 
 ::: {.callout-note collapse="true"}
 ### PowerPoint, PDF, TeX, or Markdown?
@@ -221,12 +218,12 @@ RST, reStructuredText*
 :::
 
 ## Rule 7: Make it (RE)Useable for the Trainers {.unnumbered}
-Choosing the appropriate tool to develop the materials is important, but, what if we make it even easier for others to (re)use our content?
+Choosing the appropriate tool to develop the materials is important, but what if we make it even easier for others to (re)use our content?
 Licensing is a broad topic covered in **CAHPTER ON LICENSES**.
-In short, licenses let others know to what extent they are allowed to (re)use, modify, take inspirations from your work.
+In short, licenses let others know to what extent they are allowed to (re)use, modify, take inspiration from your work.
 Universities and other institutions may have their own regulations for the materials developed by their affiliates.
-This may limit the reach of your materials but stating and sticking to it is necessary.
-The most used license for free and open access materials is the Creative Common (CC) license.
+This may limit the reach of your materials but stating and adhering to the regulations is necessary.
+The most used license for free and open access materials is the Creative Commons (CC) license.
 It grants rights to others to (re)use the materials.
 Licensing is also important for getting recognition for your work and the way it should be cited.
 
@@ -240,7 +237,7 @@ Licensing is also important for getting recognition for your work and the way it
 ## Rule 8: Don't Forget the Trainees {.unnumbered}
 When developing the materials we always have the audience in mind.
 After all, the material is going to help the trainees with learning a new skill and transfer knowledge.
-Below, is a list of metadata, suggested by @garcia2020 that orients the trainees before, while, and after dealing with the materials.
+Below is a list of metadata, suggested by @garcia2020 that orients the trainees before, while, and after dealing with the materials.
 
 | **Type of metadata**              | **What to include**                                                                                                                                       |
 |-----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -259,9 +256,9 @@ Below, is a list of metadata, suggested by @garcia2020 that orients the trainees
 | **Date of last revision**         | Date of last update of the materials and the version.                                                                                                     |
 
 ## Rule 9: Make it Contribution Firendly {.unnumbered}
-Contribution is a mean of improving the materials.
-Others may offer new perspectives, find issues, suggest recommendation for enhancement, etc.
-Using a CONTRIBUTION file, you can clearly guide users to contribute to your work and define how they should contribute.
+Contribution is a means of improving the materials.
+Others may offer new perspectives, find issues, suggest recommendations for enhancement, etc.
+Using a CONTRIBUTION file, you can guide users on how to contribute to your work and define how they should contribute.
 A well-known contribution-friendly environment is GitHub, which provides numerous tools for cooperation.
 Also, contribution must be acknowledged.
 
@@ -274,10 +271,10 @@ Also, contribution must be acknowledged.
 
 ## Rule 10: Keep the Materials Up-to-date {.unnumbered}
 Depending on the materials, they may need to be updated.
-You have to keep track of the changes in your materials throughout the time.
+You have to keep track of the changes in your materials over time.
 The older versions should be archived, the changes should be stated, and if needed the PIDs should be updated as well.
 Following the previous rules makes it extremely easy to keep your materials up-to-date.
-Also, tools like Quarto and Git make it easy to update the materials and share it across different platforms.
+Also, tools like Quarto and Git make it easy to update the materials and share them across different platforms.
 
 ::: {.callout-caution collapse="true"}
 ## How do you update your materials?
@@ -287,9 +284,14 @@ Also, tools like Quarto and Git make it easy to update the materials and share i
 - [ ] I organize my materials in a way to make the updating process as easy as possible.
 :::
 
-## Final Word {.unnumbered}
-We rely on two tools that we think are fundamental for making such educational materials, namely Git and Quarto, which relatively guaranteed the FAIRness of the materials, if used properly.
-As this guide focuses on Quarto, [The Version Control Book](https://lennartwittkuhn.com/version-control-book) written by [Lennart Wittkuhn](https://lennartwittkuhn.com) and Konrad Pagenstedt (2024) on Git, which is recommended reading, as Quarto and Git can be extremely powerful tools when used together.
+## Why Quarto? {.unnumbered}
+We rely on two tools that we think are fundamental for making such educational materials, namely Git and Quarto, which can relatively guarantee the FAIRness of the materials, if used properly.
+Quarto can create slides, websites, and books with different output formats like HTML, PDF, and PPTX.
+Even PowerPoint slides can be converted into `.qmd` files.
+Since Quarto documents are text-based, nearly every computer can open and interact with them, as opposed to PowerPoint documents that might be incompatible with older systems and versions of Microsoft Office.
+Version controllability is also another advantage of Quarto over PowerPoint and similar software.
+Quarto offers features like variables, YML formatting, code execution, and interactivity that are not available in other tools.
+As this guide focuses on Quarto, [The Version Control Book](https://lennartwittkuhn.com/version-control-book) by [Lennart Wittkuhn](https://lennartwittkuhn.com) and Konrad Pagenstedt (2024) on Git is recommended reading, as Quarto and Git can be extremely powerful tools when used together.
 
 
 
