@@ -2,7 +2,9 @@
 title: "DOI with Zenodo"
 abstract: "This chapter shows how to create a DOI using Zenodo."
 ---
+
 ## What is Zenodo?
+
 [Zenodo](https://zenodo.org/) is an open-access repository designed for researchers to share, register, and publish their work adhering to the values of Open Science.
 This platform accepts a wide range of materials, from research outputs, datasets, scripts, software, to conference materials.
 Zenodo knows no borders.
@@ -17,4 +19,66 @@ Using [Zenodo SandBox](https://sandbox.zenodo.org/), we will show you how to con
 Keep in mind that for educational purposes, or trial and error, we recommend using Zenodo SandBox since it provides dummy DOIs.
 Creating unnecessary DOIs is not recommended as they are hard to delete.
 
-callout: name
+### Creating a Zenodo account
+
+To upload a Git repository to Zenodo, you first create a Zenodo account.
+On the Zenodo [start page](https://zenodo.org), you can click on "**Sign Up**" in the top right corner.
+Here you either can directly use your **GitHub account** to sign up, or sign up using **your email** (or other accounts) and link your GitHub account later on.
+To **link your GitHub account**, you can click on the arrow, next to your email, on the start page and select "GitHub".
+If you create an account on the [regular Zenodo site](https://zenodo.org), you will have to create a new account to use the [Zenodo Sandbox](https://sandbox.zenodo.org), since the accounts do not synchronize.
+
+### Uploading a Git repository
+
+If you are just trying out how to upload a Git repository, we recommend to use the [Zenodo sandbox](https://sandbox.zenodo.org), to not create an unnecessary real DOI which is hard to delete.
+Your Zenodo account should work perfectly fine in the sandbox.
+
+::: {.callout-important appearance="simple"}
+**Note that you have to link your Zenodo account and sync your repository *before* you create a new release on GitHub!**
+:::
+
+To upload an older release, you have to download your repository as a `.zip` file from GitHub and uploading it manually at <https://sandbox.zenodo.org/uploads/new>
+
+To upload a new release, visit the [Zenodo GitHub settings](https://sandbox.zenodo.org/account/settings/github/).
+Here you should see all your uploaded repositories, with the option to sync them by selecting the "on" button.
+If you now create a release, as discussed earlier, it will show up and be associated with a DOI.
+Please note that if you have created a release *before* syncing your repository, the release will not show up.
+You can delete the GitHub release without deleting your tag and create a new release, which is the going to appear on Zenodo.
+
+For a pictured guide on how to upload a GitHub repository to Zenodo, you check out [this guide](https://coderefinery.github.io/github-without-command-line/doi/) from the [Code Refinery](https://coderefinery.org).
+
+#### Markdown DOI badge
+
+After you have created a release in your synced repo, a DOI badge should show up in your [Zenodo GitHub settings](https://sandbox.zenodo.org/account/settings/github/) next to the repository name.
+When you click on it there should be a section called **Markdown** with Markdown syntax below, for example:
+
+```         
+[![DOI](https://sandbox.zenodo.org/badge/731953735.svg)](https://sandbox.zenodo.org/doi/10.5072/zenodo.71301)
+```
+
+You can copy and paste this syntax into your `README.md` file on GitHub to create a clickable DOI badge.
+
+### UHH RDM Repository
+
+University of Hamburg also has its own repository, which works relatively similar to Zenodo.
+All members of the University of Hamburg can archive and publish the completed version of their work.
+Just like the Zenodo Sandbox, UHH RDM has a simulation version called the [staging version](https://staging.fdr.uni-hamburg.de/), in which you can test the functionality of UHH RDM without creating real DOIs.
+There is an extensive [guide](https://www.fdr.uni-hamburg.de/record/1857) on how to use it provided by the University of Hamburg.
+Here are basic steps to register your work on UHH RDM.
+
+After logging into UHH RDM via your university account, you can upload files.
+![Upload a file to UHH RDM](../images/Zenodo/zenodo-01.png)
+
+![](/images/Zenodo/zenodo-02.png)
+
+Then, you have to fill in the required forms.
+It is recommended to fill in the optional fields as well to enhance accessibility.
+
+![](/images/Zenodo/zenodo-03.png)
+
+Keep in mind that, if your work doesn't have a DOI, you need to *Reserve a DOI*.
+If you already has a DOI, you can also write it in the DOI field.
+Don't reserve a DOI if you already have one for your materials.
+
+![](/images/Zenodo/zenodo-04.png)
+
+In the end, you can save and publish your work.
