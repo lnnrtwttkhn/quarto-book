@@ -1,0 +1,20 @@
+---
+title: "DOI with Zenodo"
+abstract: "This chapter shows how to create a DOI using Zenodo."
+---
+## What is Zenodo?
+[Zenodo](https://zenodo.org/) is an open-access repository designed for researchers to share, register, and publish their work adhering to the values of Open Science.
+This platform accepts a wide range of materials, from research outputs, datasets, scripts, software, to conference materials.
+Zenodo knows no borders.
+It works internationally and regardless of the field, in which the material is developed.
+Zenodo also has no restrictions on the format, size, and licensing of the registered materials.
+Even the ongoing projects can be registered privately before publishing to ensure capturing the research process as it becomes more difficult to gather all the information after the research is done.
+This especially benefits long-term projects with multiple collaborators potentially from different parts of the world.
+
+Zenodo has a Git integration feature, which allows creating DOIs for the Git repositories.
+Assigning a DOI to your work guarantees its accessibility and reusability.
+Using [Zenodo SandBox](https://sandbox.zenodo.org/), we will show you how to connect your Git repository to Zenodo and get a DOI.
+Keep in mind that for educational purposes, or trial and error, we recommend using Zenodo SandBox since it provides dummy DOIs.
+Creating unnecessary DOIs is not recommended as they are hard to delete.
+
+callout: name
