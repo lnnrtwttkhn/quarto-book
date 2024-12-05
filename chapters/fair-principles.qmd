@@ -139,6 +139,28 @@ PIDs guarantee that the link won't become invalid and will always be accessible.
 Services like Open Researcher and Contributor ID (ORCID) and Zenodo (see the chapter on Zenodo) provide free PIDs.
 Using PIDs and registering your work with these service providers contributes to greater recognition of your materials.
 
+::: {.callout-tip title="What is a Digital Object Identifier (DOI)?" collapse="true"}
+
+A Digital Object Identifier (DOI) is a unique alphanumeric string assigned to a digital document or resource to provide a permanent and stable link to it.
+DOIs are commonly used to identify and provide a persistent link to scholarly articles, research papers, books, datasets, and other types of digital content.
+The purpose of a DOI is to ensure that the content can be reliably located and accessed over time, even if the web address (URL) of the resource changes.
+
+Key features of DOIs include:
+
+1. **Uniqueness:** Each DOI is unique to a particular resource, ensuring that no two resources have the same identifier.
+
+2. **Persistence:** DOIs are designed to remain unchanged, providing a persistent link to the resource even if it is moved or the URL changes.
+
+3. **Interoperability:** DOIs are widely used in scholarly publishing and other sectors, making them interoperable across different systems and platforms.
+
+4. **Accessibility:** DOIs are often associated with metadata that provides information about the resource, such as author, title, publisher, publication date, and more.
+
+5. **Citations:** DOIs are commonly used in academic and scientific citations to provide a standardized and reliable reference to a specific resource.
+
+DOIs are typically assigned and managed by registration agencies, such as CrossRef for scholarly content or DataCite for research data. Organizations and publishers assign DOIs to their digital content to enhance discoverability, citation tracking, and long-term accessibility.
+
+:::
+
 ::: {.callout-note collapse="true"}
 ## How does Zenodo work?
 To find out how to get a DOI on Zenodo, read the chapter on Zenodo.
