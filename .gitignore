@@ -6,4 +6,8 @@
 /images/
 /_book/
 *_files
-*.html
+*.html*.html
+chapters/zenodo_files/libs/bootstrap/bootstrap-icons.css
+*.woff
+*.css
+*.js
