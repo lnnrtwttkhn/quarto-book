@@ -1,0 +1,23 @@
+---
+title: "Cognitive Neuroscience Methods"
+subtitle: "Applied to Aging Research"
+format:
+  revealjs:
+    incremental: true
+---
+
+## Reduction in Gray Matter (GM) Volume
+
+- Fontal regions (including prefrontal cortex), striatum and hippocampus seem to be most affected by this age-induced deterioration while the occipital lobe remains the least affected.
+
+- More recently, also found changes  in GM volume in the cerebellum.
+
+## Reduction in White Matter (WM) Integrity
+
+::: {.nonincremental}
+- White matter is the the myelin sheath surrounding neuronal axons.
+
+- Inverted U shape relationship between white matter changes and age.
+
+- May explain some of the age-related changes seen in processing speed.
+:::
