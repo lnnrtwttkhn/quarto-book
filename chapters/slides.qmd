@@ -63,7 +63,46 @@ format: revealjs
 ```
 
 
+## Incremental Lists
+You can define, wether the contents should appear incrementally on the slide via `yml` header.
+All needed is to set `incremental` to `true`.
+This makes all the lists appear incrementally on the slides.
 
+```yml
+---
+title: "Cognitive Neuroscience Methods"
+subtitle: "Applied to Aging Research"
+format:
+  revealjs:
+    incremental: true
+---
+```
+
+If you want to make an exception for a slide, you can add `{.nonincremental}` class to that slide.
+Also a `{.incremental}` class can be used when `incremental` is `false` on the `yml` header.
+
+
+```yml
+
+## Reduction in Gray Matter (GM) Volume
+
+- Fontal regions (including prefrontal cortex), striatum and hippocampus seem to be most affected by this age-induced deterioration while the occipital lobe remains the least affected.
+
+- More recently, also found changes  in GM volume in the cerebellum.
+
+## Reduction in White Matter (WM) Integrity
+
+::: {.nonincremental}
+- White matter is the the myelin sheath surrounding neuronal axons.
+
+- Inverted U shape relationship between white matter changes and age.
+
+- May explain some of the age-related changes seen in processing speed.
+:::
+```
+```{=html}
+<iframe width="100%" height=500 src="example-slides\incremental-lists.html"></iframe>
+```
 
 
 ## Acknowledgements
