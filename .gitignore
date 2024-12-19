@@ -11,3 +11,4 @@ chapters/zenodo_files/libs/bootstrap/bootstrap-icons.css
 *.woff
 *.css
 *.js
+*.Rproj
