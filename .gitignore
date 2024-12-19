@@ -7,3 +7,4 @@
 /_book/
 *_files
 *.html
+*.quarto_ipynb
