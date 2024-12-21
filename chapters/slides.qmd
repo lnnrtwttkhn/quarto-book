@@ -234,6 +234,87 @@ This option can also be applied usin the `yml` header.
 <iframe width="100%" height=500 src="example-slides\scrollable.html"></iframe>
 ```
 
+## More Beautiful Slides!
+Using Quarto themes, the output will be more stylistic.
+Currently, there are 11 prebuilt themes available (beige, blood, dark, default, league, moon, night, serif, simple, sky, solarized).
+It is also possible to use other themes that people have developed.
+To apply the theme, you have to change the `yml` header.
+
+```yml
+---
+format:
+  revealjs: 
+    theme: league
+---
+```
+
+## Minor Details
+
+### Footnotes
+Same as the text formatting, `^[]` is used to add footnotes to the text.
+
+### Asides
+To add asides, Quarto wants you to push the text `aside`!
+
+### Logo and Footer
+By changing the `yml` header it is possible to add a footer and a logo to the slides.
+Custom footer for each slide is also available.
+
+The script presented below, is an illustration of all the aforementioned minor details.
+
+```yml
+
+---
+format:
+  revealjs:
+    logo: ../../images/uhh.png
+    footer: "Cognitive Neuroscience Methods Applied to Aging Research"
+---
+## Neurotransmitter Changes {.smaller}
+
+:::: {.columns}
+
+::: {.column width="60%"}
+
+**Dopamine**
+
+- Dopamine levels decline up to 10% per decade from early adulthood.
+
+- Associated with cognitive decline and motor performance.
+
+- Neurodegeneration of dopamine neurons leads to [noisier information processing]{.underline} (less distinctive cortical representations)
+
+- Dopamine modulates [prefrontal processing]{.underline} (leading to difficulties with decision-making and planning)
+
+- Dopamine modulates [hippocampal plasticity and memory]{.underline}
+
+:::
+
+::: {.column width="40%"}
+
+**Serotonin**
+
+- Age-related declines per decade of 1.5% - 7% of serotonin receptors in the brain.
+
+- Leads to an increase in [reliance on passive]{.underline} versus active decision strategies ^[(Karrer et al., 2019)].
+
+- [Stronger]{.underline} responses to aversive outcomes 
+
+- [Pervasive]{.underline} responding
+
+:::
+
+::::
+
+::: aside
+In the nect session we will talk more about this topic.
+:::
+
+```
+
+```{=html}
+<iframe width="100%" height=500 src="example-slides\minor-details.html"></iframe>
+```
 
 ## Acknowledgements
 Thanks to *[Dr. Alexa Ruel](https://alexaruel.github.io/)* for letting us use her PowerPoint slides as examples to transform them into Quarto slides.
