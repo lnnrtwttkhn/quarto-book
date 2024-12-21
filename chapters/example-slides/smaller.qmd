@@ -1,0 +1,43 @@
+---
+format:
+  revealjs:
+    incremental: true
+---
+
+
+## Neurotransmitter Changes {.smaller}
+
+:::: {.columns}
+
+::: {.column width="60%"}
+
+**Dopamine**
+
+- Dopamine levels decline up to 10% per decade from early adulthood.
+
+- Associated with cognitive decline and motor performance.
+
+- Neurodegeneration of dopamine neurons leads to [noisier information processing]{.underline} (less distinctive cortical representations)
+
+- Dopamine modulates [prefrontal processing]{.underline} (leading to difficulties with decision-making and planning)
+
+- Dopamine modulates [hippocampal plasticity and memory]{.underline}
+
+:::
+
+::: {.column width="40%"}
+
+**Serotonin**
+
+- Age-related declines per decade of 1.5% - 7% of serotonin receptors in the brain.
+
+- Leads to an increase in [reliance on passive]{.underline} versus active decision strategies (Karrer et al., 2019).
+
+- [Stronger]{.underline} responses to aversive outcomes 
+
+- [Pervasive]{.underline} responding
+
+:::
+
+::::
+
