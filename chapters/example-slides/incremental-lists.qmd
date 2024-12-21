@@ -1,6 +1,4 @@
 ---
-title: "Cognitive Neuroscience Methods"
-subtitle: "Applied to Aging Research"
 format:
   revealjs:
     incremental: true
