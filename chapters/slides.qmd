@@ -234,6 +234,51 @@ This option can also be applied usin the `yml` header.
 <iframe width="100%" height=500 src="example-slides\scrollable.html"></iframe>
 ```
 
+
+## Slide-Script Integration
+Scripts can be integrated into the slides as discussed in the "How to show code?" chapter.
+This integration is particularly useful for educational purposes, as the result and function of different chunks of a script can be presented in real time.
+Slide-script integration encourages researchers to publish in a more reproducible manner.
+Imagine you are presenting a paper's findings, and instead of adding a screenshot of the diagrams, you use the actual script that the authors used to produce that specific output.
+Not only would the presentation be cleaner, but also, by doing what you preach, the audience to whom the slides are presented will be in direct contact with how FAIRness impacts the research and educational setting.
+
+```r
+library(ggplot2)
+
+# Data preparation
+age_groups <- c("under 1 year", "1-5 years", "6-14 years", "15-17 years", 
+                "18-20 years", "21-24 years", "25-39 years", "40-59 years", 
+                "60-64 years", "65 years and older")
+population <- c(0.74, 4.08, 6.32, 3.11, 2.44, 3.69, 16.11, 23, 6.2, 18.66)
+data <- data.frame(AgeGroup = age_groups, Population = population)
+
+# Bar chart creation
+plot <- ggplot(data, aes(x = AgeGroup, y = Population)) +
+  geom_bar(stat = "identity", fill = "steelblue") +
+  geom_text(aes(label = Population), vjust = -0.5, size = 3.5) +
+  labs(
+    title = "Population of Germany as of December 31, 2022, by age group (in millions)",
+    x = "Age Group",
+    y = "Population in millions",
+    caption = "Source: Statistisches Bundesamt \u00A9 Statista 2023\nAdditional Information: Germany; Statistisches Bundesamt; December 31, 2022"
+  ) +
+  scale_y_continuous(breaks = seq(0, 30, 5), limits = c(0, 30)) +
+  theme_minimal() +
+  theme(
+    plot.title = element_text(hjust = 0.5, size = 14, face = "bold"),
+    axis.text.x = element_text(angle = 45, hjust = 1)
+  )
+
+# Display the chart
+print(plot)
+
+```
+
+```{=html}
+<iframe width="100%" height=500 src="example-slides\script-slide.html"></iframe>
+```
+
+
 ## More Beautiful Slides!
 Using Quarto themes, the output will be more stylistic.
 Currently, there are 11 prebuilt themes available (beige, blood, dark, default, league, moon, night, serif, simple, sky, solarized).
@@ -315,6 +360,7 @@ In the nect session we will talk more about this topic.
 ```{=html}
 <iframe width="100%" height=500 src="example-slides\minor-details.html"></iframe>
 ```
+
 
 ## Acknowledgements
 Thanks to *[Dr. Alexa Ruel](https://alexaruel.github.io/)* for letting us use her PowerPoint slides as examples to transform them into Quarto slides.
