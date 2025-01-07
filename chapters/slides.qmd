@@ -7,13 +7,13 @@ abstract: "This chapter outlines the basic steps for creating slides in Quarto."
 An important part of teaching is presenting.
 PowerPoint presentations are widely used across educational settings.
 However, PowerPoint comes with several constraints in terms of FAIRness.
-PowerPoint slides can't be version controlled.  
-As discussed in the previous chapters, the Quarto-Git integration is a powerful feature that enables the version controllability of slides crafted in Quarto.  
+PowerPoint slides can't be version controlled.
+As discussed in the previous chapters, the Quarto-Git integration is a powerful feature that enables the version controllability of slides crafted in Quarto.
 Other general advantages of Quarto are also applicable to creating slides.
 
-For instance, the reproducibility of PowerPoint slides on other systems is often a problem.  
-To run smoothly, PowerPoint slides need the fonts used on the original system.  
-There are also compatibility limitations, as one can't be sure that the versions will run the same on different machines.  
+For instance, the reproducibility of PowerPoint slides on other systems is often a problem.
+To run smoothly, PowerPoint slides need the fonts used on the original system.
+There are also compatibility limitations, as one can't be sure that the versions will run the same on different machines.
 If one embeds the fonts, animations, images, etc., in PowerPoint, then the slides can't be edited on other machines.
 
 In this chapter, we show how to create basic slides in Quarto.
@@ -281,7 +281,7 @@ print(plot)
 
 ## More Beautiful Slides!
 Using Quarto themes, the output will be more stylistic.
-Currently, there are 11 prebuilt themes available (beige, blood, dark, default, league, moon, night, serif, simple, sky, solarized).
+Currently, there are 11 prebuilt themes available (`beige`, `blood`, `dark`, `default`, `league`, `moon`, `night`, `serif`, `simple`, `sky`, `solarized`).
 It is also possible to use other themes that people have developed.
 To apply the theme, you have to change the `yml` header.
 
@@ -361,6 +361,39 @@ In the nect session we will talk more about this topic.
 <iframe width="100%" height=500 src="example-slides\minor-details.html"></iframe>
 ```
 
+
+## Add Images to the slides
+## Transitions
+## Fragments
+
+## Presenting Options
+
+While presenting, you can switch between different presentation modes and take advantage of built-in Quarto presentation features.
+The three lines on the bottom left of the slides open the presentation menu bar.
+On the menu bar, Slides shows the title of each slide, and you can navigate through the slides.
+The `Tools` menu is where things get interesting.
+The most useful features on this menu are `Speaker View`, `Slide Overview`, `Toggle Chalkboard`, and `Toggle Notes`.
+These options are activated on the example slides in this chapter; therefore, you can discover them in this chapter as well.
+
+#### Speaker View
+
+`Speaker View` is the equivalent of PowerPoint's Presenter View.
+Your notes and the upcoming slide are shown.
+A timer and a clock also help you keep track of time while presenting.
+Pressing `s` acts as a shortcut for this option.
+
+#### Slide Overview
+
+This option, which is activated by pressing `o`, gives an overview of your previous and next slides to navigate through them quickly.
+
+#### Toggle Chalkboard & Toggle Notes Canvas
+
+These features are relatively the same in terms of function.
+`Toggle Chalkboard` opens a separate "Chalkboard" window where you can write and draw using different brushes.
+Its shortcut is `b` on the keyboard.
+By pressing `c` and opening the `Toggle Notes Canvas`, you can write on the slides.
+You can download the drawings by pressing `d`.
+Make sure to activate these options in your presentation by adding `chalkboard: true` under the `revealjs` section in the `.yml` header of your presentation.
 
 ## Acknowledgements
 Thanks to *[Dr. Alexa Ruel](https://alexaruel.github.io/)* for letting us use her PowerPoint slides as examples to transform them into Quarto slides.
