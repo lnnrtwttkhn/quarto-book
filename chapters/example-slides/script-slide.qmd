@@ -1,5 +1,7 @@
 ---
-format: revealjs
+format: 
+  revealjs:
+      chalkboard: true
 ---
 
 ## Why Study Aging populations?

@@ -1,6 +1,7 @@
 ---
 format:
   revealjs:
+    chalkboard: true
     incremental: true
 ---
 

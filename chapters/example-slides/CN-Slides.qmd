@@ -1,7 +1,9 @@
 ---
 title: "Cognitive Neuroscience Methods"
 subtitle: "Applied to Aging Research"
-format: revealjs
+format:
+   revealjs:
+      chalkboard: true
 ---
 
 ## Reduction in Gray Matter (GM) Volume

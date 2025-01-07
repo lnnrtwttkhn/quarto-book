@@ -2,6 +2,7 @@
 format:
   revealjs:
     incremental: true
+    chalkboard: true
 ---
 
 ## Reduction in Gray Matter (GM) Volume
