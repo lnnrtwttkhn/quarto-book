@@ -1,0 +1,22 @@
+---
+title: "Designing more Appealing Slides"
+abstract: "This chapter is an introduction to making more beautiful slides!"
+---
+
+## More Beautiful Slides!
+Using Quarto themes, the output will be more stylistic.
+Currently, there are 11 prebuilt themes available (`beige`, `blood`, `dark`, `default`, `league`, `moon`, `night`, `serif`, `simple`, `sky`, `solarized`).
+It is also possible to use other themes that people have developed.
+To apply the theme, you have to change the `yml` header.
+
+```yml
+---
+format:
+  revealjs: 
+    theme: league
+---
+```
+
+## Open AI APIs & AI Generated Templates
+
+## CSS Styling
