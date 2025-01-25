@@ -1,5 +1,5 @@
 ---
-title: "Licensing Open Educational Materials"
+title: "Licensing OER"
 abstract: "This chapter introduces you to different licenses and their importance. It also helps you find the suitable license for your materials."
 ---
 
@@ -62,6 +62,29 @@ This means that you might not be the copyright holder of outcomes such as projec
 Therefore, you must first determine who owns the copyright before licensing the work.
 
 Another important point is that once you license your work, it is not possible to annul the license. The irrevocability of CC licenses means you must be cautious about how you license your materials.
+
+
+## What do different Creative Commons {{< fa brands creatve-commons >}} licenses mean?
+We can think of licensing as granting users the rights to distribute, remix, and build upon the original work.
+This creates several opportunities for users.
+In addition to these features, it is important to consider the commercial use of the materials.
+Creative Commons has proposed seven license types that creators can adopt to protect their rights.
+
+### CC BY {{< fa brands creative-commons-by >}}
+
+### CC BY-SA {{< fa brands creative-commons-by >}} {{< fa brands creative-commons-sa >}}
+
+### CC BY-NC {{< fa brands creative-commons-by >}} {{< fa brands creative-commons-nc >}}
+
+### CC BY-NC-SA {{< fa brands creative-commons-by >}} {{< fa brands creative-commons-nc >}} {{< fa brands creative-commons-sa >}}
+
+### CC BY-ND {{< fa brands creative-commons-by >}} {{< fa brands creative-commons-nd >}}
+
+### CC BY-NC-ND {{< fa brands creative-commons-by >}}  {{< fa brands creative-commons-nc >}} {{< fa brands creative-commons-nd >}}
+
+### CC Zero (CC0)
+By adopting this type of license, original owners give up their rights and release the materials to the public.
+CC0 grants users the right to distribute, remix, and develop the materials without any conditions.
 
 ## How can I license my work?
 Licensing always involves legal and judicial processes and agreements, which, of course, we are not experts in.
