@@ -1,0 +1,26 @@
+---
+title: "Licensing Open Educational Materials"
+abstract: "This chapter introduces you to different licenses and their importance. It also helps you find the suitable license for your materials."
+---
+
+## What does **open** means?
+**"Open"** is not just about being free; it also involves a set of permissions that define how a resource can be used.
+We want to make it clear who can access our work, how they are allowed to use it, and whether they can share it with others.
+Open education is all about sharing, but **how** something is shared matters.
+## Before licensing!
+
+It is important to note that only the copyright owner or someone with control permissions is allowed to license a work under Creative Commons {{< fa brands creatve-commons >}} conventions.
+This means that you might not be the copyright holder of outcomes such as projects completed within the framework of your job responsibilities.
+Therefore, you must first determine who owns the copyright before licensing the work.
+
+Another important point is that once you license your work, it is not possible to annul the license. The irrevocability of CC licenses means you must be cautious about how you license your materials.
+
+## How can I license my work?
+Licensing always involves legal and judicial processes and agreements, which, of course, we are not experts in.
+Therefore, licensing can be treated differently across the world, depending on the laws of each country.
+Here, we introduce a general framework that most of the world has agreed upon and uses—namely, Creative Commons.
+The main strength of these licenses, which makes them accessible for global agreement, is their interoperability.
+
+Creative Commons provides a very useful tool to help choose the appropriate license.
+Simply visit [License Chooser](https://chooser-beta.creativecommons.org/).
+By answering a series of questions regarding the 5Rs in a broad sense, you will receive the suitable license for your work.
