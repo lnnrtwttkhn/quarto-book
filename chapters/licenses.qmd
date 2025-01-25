@@ -7,6 +7,54 @@ abstract: "This chapter introduces you to different licenses and their importanc
 **"Open"** is not just about being free; it also involves a set of permissions that define how a resource can be used.
 We want to make it clear who can access our work, how they are allowed to use it, and whether they can share it with others.
 Open education is all about sharing, but **how** something is shared matters.
+
+## The Granted Permissions
+When materials are licensed, they define the rights regarding how the audience can "treat" them.
+The rights granted by licenses can be categorized into the 5Rs, introduced by David Wiley (2014).
+
+#### Reuse
+As a pillar of FAIRness, reusability is central to licensing.
+In the context of licensing, "**to reuse**" implies the range of usability of materials.
+Are your materials restricted to classrooms, or can they be reused in a variety of offline and online contexts?
+
+#### Revise
+Sometimes, one needs to adapt the content of open materials to fit their own workflow.
+For example, "**revising**" an online open guide on statistical analysis to make it more useful for psychology students by adjusting it to a psychological context.
+This could involve reducing the amount of calculations, adding clinical examples, and demonstrating the applications of theoretical mathematical processes using software.
+
+#### Remix
+The instructor in the previous example wanted to adapt an existing guide to fit their own needs.
+If they decide to create their own guide while also incorporating the revised or original version of the initial guide, they must be granted the "**remix**" right.
+
+#### Redistribute
+How the original copies, revisions, or remixes can be shared with others falls under the fourth R, namely "**redistribute**".
+
+#### Retain
+Although reuse implies the ownership of the materials, it is not explicit and may cause further problems.
+This R is addad to the previois ones later.
+
+Here we quote David Wiley on why retain reights are important:
+
+> There is no possible short- or medium-term future in which commercial publishers do what is economically and technically necessary to make it possible for students to actually own their learning content.
+This means that any advances toward ownership will have to come from the field of open education.
+>
+...
+There’s not a single definition of OER I’m aware of – including my own – that speaks directly to issues of ownership.
+Yes, ownership is sort of implied in the “reuse” R, and is legally permitted by open licenses.
+But for all of their willingness to share access to open educational resources, how many OER publishers go out of their way to make it easy for you to grab a copy of their OER that you can own and control forever?
+...
+This leads me to feel that the time has come to add a 5th R to my framework – “retain.”
+
+#### The 5Rs by David Wiley (2014)
+
+| the R        	| Definition                                                                                                                                         	|
+|--------------	|----------------------------------------------------------------------------------------------------------------------------------------------------	|
+| Reuse        	| the right to use the content in a wide range of ways (e.g., in a class, in a study group, on a website, in a video)                                	|
+| Revise       	| the right to adapt, adjust, modify, or alter the content itself (e.g., translate the content into another language)                                	|
+| Remix        	| the right to combine the original or revised content with other open content to create something new (e.g., incorporate the content into a mashup) 	|
+| Redistribute 	| the right to share copies of the original content, your revisions, or your remixes with others (e.g., give a copy of the content to a friend)      	|
+| Retain       	| the right to make, own, and control copies of the content                                                                                          	|
+
 ## Before licensing!
 
 It is important to note that only the copyright owner or someone with control permissions is allowed to license a work under Creative Commons {{< fa brands creatve-commons >}} conventions.
