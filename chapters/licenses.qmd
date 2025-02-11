@@ -64,23 +64,60 @@ Therefore, you must first determine who owns the copyright before licensing the 
 Another important point is that once you license your work, it is not possible to annul the license. The irrevocability of CC licenses means you must be cautious about how you license your materials.
 
 
-## What do different Creative Commons {{< fa brands creatve-commons >}} licenses mean?
+## What do different Creative Commons {{< fa brands creative-commons >}} licenses mean?
 We can think of licensing as granting users the rights to distribute, remix, and build upon the original work.
 This creates several opportunities for users.
 In addition to these features, it is important to consider the commercial use of the materials.
 Creative Commons has proposed seven license types that creators can adopt to protect their rights.
 
 ### CC BY {{< fa brands creative-commons-by >}}
+The reuser is obligated to give credit to the original work and is then allowed to reuse, distribute, modify, and develop it further.
+The right to commercial use is also granted under this type of license.
+The reuser indicates that the material follows the CC BY license by adding this statement:
+
+{{< fa brands creative-commons-by >}} BY: Credit must be given to the creator.
 
 ### CC BY-SA {{< fa brands creative-commons-by >}} {{< fa brands creative-commons-sa >}}
+The reuser is obligated to give credit to the original work and is then allowed to reuse, distribute, modify, and develop it further.
+The right to commercial use is also granted under this type of license.
+If the work is redistributed, further developed, or modified, the reuser must license the new work under the same terms.
+The reuser indicates that the material follows the CC BY-SA license by adding this statement:
+
+{{< fa brands creative-commons-by >}} BY: Credit must be given to the creator.
+{{< fa brands creative-commons-sa >}} SA: Adaptations must be shared under the same terms.
+
 
 ### CC BY-NC {{< fa brands creative-commons-by >}} {{< fa brands creative-commons-nc >}}
+The reuser is obligated to give credit to the original work and is then allowed to reuse, distribute, modify, and develop it further.
+The right to commercial use is *not* granted under this type of license.
+The reuser indicates that the material follows the CC BY license by adding this statement:
+{{< fa brands creative-commons-by >}} BY: Credit must be given to the creator.
+{{< fa brands creative-commons-nc >}} NC: Only noncommercial uses of the work are permitted.
 
 ### CC BY-NC-SA {{< fa brands creative-commons-by >}} {{< fa brands creative-commons-nc >}} {{< fa brands creative-commons-sa >}}
+The reuser is obligated to give credit to the original work and is then allowed to reuse, distribute, modify, and develop it further.
+The right to commercial use is *not* granted under this type of license.
+If the work is redistributed, further developed, or modified, the reuser must license the new work under the same terms.
+The reuser indicates that the material follows the CC BY license by adding this statement:
+{{< fa brands creative-commons-by >}} BY: Credit must be given to the creator.
+{{< fa brands creative-commons-nc >}} NC: Only noncommercial uses of the work are permitted.
+{{< fa brands creative-commons-sa >}} SA: Adaptations must be shared under the same terms.
 
 ### CC BY-ND {{< fa brands creative-commons-by >}} {{< fa brands creative-commons-nd >}}
+The reuser is obligated to give credit to the original work, but is not allowed to readapt it.
+The right to commercial use is also granted under this type of license.
+The reuser indicates that the material follows the CC BY license by adding this statement:
+{{< fa brands creative-commons-by >}} BY: Credit must be given to the creator.
+{{< fa brands creative-commons-nd >}} ND: No derivatives or adaptations of the work are permitted.
 
 ### CC BY-NC-ND {{< fa brands creative-commons-by >}}  {{< fa brands creative-commons-nc >}} {{< fa brands creative-commons-nd >}}
+The reuser is obligated to give credit to the original work, but is not allowed to readapt it.
+The right to commercial use is *not* granted under this type of license.
+The reuser indicates that the material follows the CC BY license by adding this statement:
+{{< fa brands creative-commons-by >}} BY: Credit must be given to the creator.
+{{< fa brands creative-commons-nc >}} NC: Only noncommercial uses of the work are permitted.
+{{< fa brands creative-commons-nd >}} ND: No derivatives or adaptations of the work are permitted.
+
 
 ### CC Zero (CC0)
 By adopting this type of license, original owners give up their rights and release the materials to the public.
