@@ -1,0 +1,134 @@
+---
+title: "Licensing OER"
+abstract: "This chapter introduces you to different licenses and their importance. It also helps you find the suitable license for your materials."
+---
+
+## What does **open** means?
+**"Open"** is not just about being free; it also involves a set of permissions that define how a resource can be used.
+We want to make it clear who can access our work, how they are allowed to use it, and whether they can share it with others.
+Open education is all about sharing, but **how** something is shared matters.
+
+## The Granted Permissions
+When materials are licensed, they define the rights regarding how the audience can "treat" them.
+The rights granted by licenses can be categorized into the 5Rs, introduced by David Wiley (2014).
+
+#### Reuse
+As a pillar of FAIRness, reusability is central to licensing.
+In the context of licensing, "**to reuse**" implies the range of usability of materials.
+Are your materials restricted to classrooms, or can they be reused in a variety of offline and online contexts?
+
+#### Revise
+Sometimes, one needs to adapt the content of open materials to fit their own workflow.
+For example, "**revising**" an online open guide on statistical analysis to make it more useful for psychology students by adjusting it to a psychological context.
+This could involve reducing the amount of calculations, adding clinical examples, and demonstrating the applications of theoretical mathematical processes using software.
+
+#### Remix
+The instructor in the previous example wanted to adapt an existing guide to fit their own needs.
+If they decide to create their own guide while also incorporating the revised or original version of the initial guide, they must be granted the "**remix**" right.
+
+#### Redistribute
+How the original copies, revisions, or remixes can be shared with others falls under the fourth R, namely "**redistribute**".
+
+#### Retain
+Although reuse implies the ownership of the materials, it is not explicit and may cause further problems.
+This R is addad to the previois ones later.
+
+Here we quote David Wiley on why retain reights are important:
+
+> There is no possible short- or medium-term future in which commercial publishers do what is economically and technically necessary to make it possible for students to actually own their learning content.
+This means that any advances toward ownership will have to come from the field of open education.
+>
+...
+There’s not a single definition of OER I’m aware of – including my own – that speaks directly to issues of ownership.
+Yes, ownership is sort of implied in the “reuse” R, and is legally permitted by open licenses.
+But for all of their willingness to share access to open educational resources, how many OER publishers go out of their way to make it easy for you to grab a copy of their OER that you can own and control forever?
+...
+This leads me to feel that the time has come to add a 5th R to my framework – “retain.”
+
+#### The 5Rs by David Wiley (2014)
+
+| the R        	| Definition                                                                                                                                         	|
+|--------------	|----------------------------------------------------------------------------------------------------------------------------------------------------	|
+| Reuse        	| the right to use the content in a wide range of ways (e.g., in a class, in a study group, on a website, in a video)                                	|
+| Revise       	| the right to adapt, adjust, modify, or alter the content itself (e.g., translate the content into another language)                                	|
+| Remix        	| the right to combine the original or revised content with other open content to create something new (e.g., incorporate the content into a mashup) 	|
+| Redistribute 	| the right to share copies of the original content, your revisions, or your remixes with others (e.g., give a copy of the content to a friend)      	|
+| Retain       	| the right to make, own, and control copies of the content                                                                                          	|
+
+## Before licensing!
+
+It is important to note that only the copyright owner or someone with control permissions is allowed to license a work under Creative Commons {{< fa brands creatve-commons >}} conventions.
+This means that you might not be the copyright holder of outcomes such as projects completed within the framework of your job responsibilities.
+Therefore, you must first determine who owns the copyright before licensing the work.
+
+Another important point is that once you license your work, it is not possible to annul the license. The irrevocability of CC licenses means you must be cautious about how you license your materials.
+
+
+## What do different Creative Commons {{< fa brands creative-commons >}} licenses mean?
+We can think of licensing as granting users the rights to distribute, remix, and build upon the original work.
+This creates several opportunities for users.
+In addition to these features, it is important to consider the commercial use of the materials.
+Creative Commons has proposed seven license types that creators can adopt to protect their rights.
+
+### CC BY {{< fa brands creative-commons-by >}}
+The reuser is obligated to give credit to the original work and is then allowed to reuse, distribute, modify, and develop it further.
+The right to commercial use is also granted under this type of license.
+The reuser indicates that the material follows the CC BY license by adding this statement:
+
+{{< fa brands creative-commons-by >}} BY: Credit must be given to the creator.
+
+### CC BY-SA {{< fa brands creative-commons-by >}} {{< fa brands creative-commons-sa >}}
+The reuser is obligated to give credit to the original work and is then allowed to reuse, distribute, modify, and develop it further.
+The right to commercial use is also granted under this type of license.
+If the work is redistributed, further developed, or modified, the reuser must license the new work under the same terms.
+The reuser indicates that the material follows the CC BY-SA license by adding this statement:
+
+{{< fa brands creative-commons-by >}} BY: Credit must be given to the creator.
+{{< fa brands creative-commons-sa >}} SA: Adaptations must be shared under the same terms.
+
+
+### CC BY-NC {{< fa brands creative-commons-by >}} {{< fa brands creative-commons-nc >}}
+The reuser is obligated to give credit to the original work and is then allowed to reuse, distribute, modify, and develop it further.
+The right to commercial use is *not* granted under this type of license.
+The reuser indicates that the material follows the CC BY license by adding this statement:
+{{< fa brands creative-commons-by >}} BY: Credit must be given to the creator.
+{{< fa brands creative-commons-nc >}} NC: Only noncommercial uses of the work are permitted.
+
+### CC BY-NC-SA {{< fa brands creative-commons-by >}} {{< fa brands creative-commons-nc >}} {{< fa brands creative-commons-sa >}}
+The reuser is obligated to give credit to the original work and is then allowed to reuse, distribute, modify, and develop it further.
+The right to commercial use is *not* granted under this type of license.
+If the work is redistributed, further developed, or modified, the reuser must license the new work under the same terms.
+The reuser indicates that the material follows the CC BY license by adding this statement:
+{{< fa brands creative-commons-by >}} BY: Credit must be given to the creator.
+{{< fa brands creative-commons-nc >}} NC: Only noncommercial uses of the work are permitted.
+{{< fa brands creative-commons-sa >}} SA: Adaptations must be shared under the same terms.
+
+### CC BY-ND {{< fa brands creative-commons-by >}} {{< fa brands creative-commons-nd >}}
+The reuser is obligated to give credit to the original work, but is not allowed to readapt it.
+The right to commercial use is also granted under this type of license.
+The reuser indicates that the material follows the CC BY license by adding this statement:
+{{< fa brands creative-commons-by >}} BY: Credit must be given to the creator.
+{{< fa brands creative-commons-nd >}} ND: No derivatives or adaptations of the work are permitted.
+
+### CC BY-NC-ND {{< fa brands creative-commons-by >}}  {{< fa brands creative-commons-nc >}} {{< fa brands creative-commons-nd >}}
+The reuser is obligated to give credit to the original work, but is not allowed to readapt it.
+The right to commercial use is *not* granted under this type of license.
+The reuser indicates that the material follows the CC BY license by adding this statement:
+{{< fa brands creative-commons-by >}} BY: Credit must be given to the creator.
+{{< fa brands creative-commons-nc >}} NC: Only noncommercial uses of the work are permitted.
+{{< fa brands creative-commons-nd >}} ND: No derivatives or adaptations of the work are permitted.
+
+
+### CC Zero (CC0)
+By adopting this type of license, original owners give up their rights and release the materials to the public.
+CC0 grants users the right to distribute, remix, and develop the materials without any conditions.
+
+## How can I license my work?
+Licensing always involves legal and judicial processes and agreements, which, of course, we are not experts in.
+Therefore, licensing can be treated differently across the world, depending on the laws of each country.
+Here, we introduce a general framework that most of the world has agreed upon and uses—namely, Creative Commons.
+The main strength of these licenses, which makes them accessible for global agreement, is their interoperability.
+
+Creative Commons provides a very useful tool to help choose the appropriate license.
+Simply visit [License Chooser](https://chooser-beta.creativecommons.org/).
+By answering a series of questions regarding the 5Rs in a broad sense, you will receive the suitable license for your work.
