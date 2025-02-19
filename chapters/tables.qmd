@@ -18,3 +18,6 @@ To draw a table on Quarto, you should draw a table! Let's find out with an examp
 | Banana | Wolf    |    Pine |
 
 As you see, adding `:` to the left, right or both sides of the dashes will affect the alignment of a column. For further customization options regarding tables see [Quarto's documentation](https://quarto.org/docs/authoring/tables.html) on tables.
+
+A more efficient way of drawing tables is using Markdown table generators.
+There are many options available, such as [Tables Generator](https://www.tablesgenerator.com/markdown_tables), [Table Convert] (https://tableconvert.com/markdown-generator), and [Table to Markdown](https://tabletomarkdown.com/generate-markdown-table/).
