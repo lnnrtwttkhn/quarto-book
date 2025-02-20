@@ -2,6 +2,7 @@
 format: 
   revealjs:
       chalkboard: true
+      theme: [default, _custom.scss]
 ---
 
 ## Why Study Aging populations?
@@ -18,7 +19,7 @@ data <- data.frame(AgeGroup = age_groups, Population = population)
 
 # Bar chart creation
 plot <- ggplot(data, aes(x = AgeGroup, y = Population)) +
-  geom_bar(stat = "identity", fill = "steelblue") +
+  geom_bar(stat = "identity", fill = "#e2001a") +
   geom_text(aes(label = Population), vjust = -0.5, size = 3.5) +
   labs(
     title = "Population of Germany as of December 31, 2022, by age group (in millions)",

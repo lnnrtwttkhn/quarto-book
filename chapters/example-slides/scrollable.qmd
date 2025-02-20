@@ -2,6 +2,7 @@
 format:
    revealjs:
       chalkboard: true
+      theme: [default, _custom.scss]
 ---
 
 

@@ -4,6 +4,7 @@ subtitle: "Applied to Aging Research"
 format:
    revealjs:
       chalkboard: true
+      theme: [default, _custom.scss]
 ---
 
 ## Reduction in Gray Matter (GM) Volume

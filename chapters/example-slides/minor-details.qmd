@@ -4,6 +4,7 @@ format:
     chalkboard: true
     logo: ../../images/uhh.png
     footer: "Cognitive Neuroscience Methods Applied to Aging Research"
+    theme: [default, _custom.scss]
 ---
 ## Neurotransmitter Changes {.smaller}
 
