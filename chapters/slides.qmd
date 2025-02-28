@@ -64,7 +64,7 @@ format: revealjs
 
 
 ## Incremental Lists
-You can define, wether the contents should appear incrementally on the slide via `yml` header.
+You can define, whether the contents should appear incrementally on the slide via `yml` header.
 All needed is to set `incremental` to `true`.
 This makes all the lists appear incrementally on the slides.
 
@@ -190,8 +190,8 @@ Add the {.smaller} in line with the title of the slide.
 <iframe width="100%" height=500 src="example-slides\smaller.html"></iframe>
 ```
 
-The second option is to make the slides `{.scrollable}` to scroll through the slide and cover all the matrials.
-This option can also be applied usin the `yml` header.
+The second option is to make the slides `{.scrollable}` to scroll through the slide and cover all the materials.
+This option can also be applied using the `yml` header.
 ```yml
 ## Neurotransmitter Changes {.scrollable}
 
