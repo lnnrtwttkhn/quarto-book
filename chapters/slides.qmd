@@ -340,7 +340,7 @@ format:
 ::::
 
 ::: aside
-In the nect session we will talk more about this topic.
+In the next session we will talk more about this topic.
 :::
 
 ```
@@ -351,8 +351,25 @@ In the nect session we will talk more about this topic.
 
 
 ## Add Images to the slides
+The syntax for adding images to the slides is not different from what we have learned in previous chapters.
+In a slide, we want to have the maximum control on the position of images.
+The `absolute` class functions as a controller for the position of the images on slides.
+
+```yml
+![](image){.absolute top=300 left=150 width="50%" height="50%"}
+
+```
+Note that you can manage the location of image using `top`, `left`, `right`, and `bottom`.
+The `width` and `height` manipulate the size of your image.
+
 ## Transitions
-## Fragments
+Just like PowePoint there are animations for transitioning between slides.
+You can define a transition globally using the `yml` header or specify it for each slide.
+There are different transition options available: `fade`, `slide`, `convex`, `concave`, and `zoom`.
+
+```{=html}
+<iframe width="100%" height=500 src="example-slides\transitions.html"></iframe>
+```
 
 ## Presenting Options
 
