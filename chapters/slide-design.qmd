@@ -1,0 +1,44 @@
+---
+title: "Designing more Appealing Slides"
+abstract: "This chapter is an introduction to making more beautiful slides!"
+---
+
+## More Beautiful Slides!
+Aesthetics is an important aspect of creating slides.
+Visually pleasing styles not only help with conveying concepts, but they can also be attention grabbers.
+The purpose of this chapter is to teach you the basics of creating more stylish slides.
+There are three methods by which one can design prettier slides: **Quarto themes**, *CSS styling**, and the **Quarto revealjs theme generator AI tool**.
+
+## Quarto themes
+Using Quarto themes, the output will be more stylistic.
+Currently, there are 11 prebuilt themes available (`beige`, `blood`, `dark`, `default`, `league`, `moon`, `night`, `serif`, `simple`, `sky`, `solarized`).
+It is also possible to use other themes that people have developed.
+To apply the theme, you have to change the `yml` header.
+
+```yml
+---
+format:
+  revealjs: 
+    theme: league
+---
+```
+
+## CSS Styling
+We won't go in depth of CSS styling as another documentation is required and is not the main purpose of our guide.
+The focus here is on the trinity of **color**, **font**, and **size**.
+This is the most efficient way of making beautiful custom presentations themes for Quarto.
+Modifying each of these component is easy and doesn't need a lot of experience with CSS.
+Following the steps below, you can create a basic but aesthetic presentation.
+
+For the beginning we set up a `.scss` file as most of the slide designing happens in that file.
+
+```yml
+format:
+   revealjs:
+      theme: [default, mytheme.scss]
+
+
+
+A detailed styling guide has already been developed beautifully by Emil Hvitfeldt on his [website](https://emilhvitfeldt.com/project/slidecraft-101/).
+
+## Open AI APIs & AI Generated Templates
