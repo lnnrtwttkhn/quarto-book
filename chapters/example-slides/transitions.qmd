@@ -1,0 +1,93 @@
+---
+format:
+  revealjs:
+    chalkboard: true
+    incremental: true
+    theme: [default, _custom.scss]
+---
+
+
+## Neurotransmitter Changes (Dopamine) {.smaller transition="fade"}
+
+- Dopamine levels decline up to 10% per decade from early adulthood.
+
+- Associated with cognitive decline and motor performance.
+
+- Neurodegeneration of dopamine neurons leads to [noisier information processing]{.underline} (less distinctive cortical representations)
+
+- Dopamine modulates [prefrontal processing]{.underline} (leading to difficulties with decision-making and planning)
+
+- Dopamine modulates [hippocampal plasticity and memory]{.underline}
+
+
+## Neurotransmitter Changes (Serotonin) {.smaller transition="convex"}
+
+- Age-related declines per decade of 1.5% - 7% of serotonin receptors in the brain.
+
+- Leads to an increase in [reliance on passive]{.underline} versus active decision strategies (Karrer et al., 2019).
+
+- [Stronger]{.underline} responses to aversive outcomes 
+
+- [Pervasive]{.underline} responding
+
+
+## Impact of Healthy Aging on Cognitive Abilities {.smaller transition="concave"}
+
+- Memory: episodic memory (Craik & McDowd, 1987), working memory (Slathouse, 1994)
+
+- Attention: selective attention (McDowd & Shaw, 2000), divided attention (Verhaeghen & Cerella, 2002), sustained attention (Berardi et al., 2001)
+
+- Processing speed (Birren, 1970)
+
+- Executive functions: plan, organize, think abstractly, adapt to new situations (Zelazo et al., 2004)
+
+- Reasoning: inductive reasoning, decision-making, learning, etc. (Salthouse, 2004)
+
+## Impact of Healthy Aging on Cognitive Abilities (Flanker task) {.smaller transition="zoom"}
+
+- RTs: Older adults tend to show slower reaction times
+
+- ACCs: Older adults are often less accurate than younger adults.
+
+- Speed/Accuracy Trade-off: Older adults tend to sacrifice speed for accuracy.
+
+- Why? Change in processing time & movement/response initiation (Hardwick et al., 2022)
+
+## Healthy Aging vs. Pathological Aging {.smaller transition="slide"}
+
+:::: {.columns}
+
+::: {.column width="33%"}
+
+**Healthy Aging**
+- Free of any neurological, psychiatric or psychological disorder and/or diagnosis.
+
+- Age 65+  
+
+:::
+
+::: {.column width="33%"}
+
+**Mild Cognitive Impairment (MCI)**
+
+- “More memory or thinking impairments than other people their age”
+
+- Usually maintain their independence 
+
+- MoCA (Montreal Cognitive Assessment Tool)
+
+:::
+
+::: {.column width="33%"}
+
+***Dementia, Alzheimer’s & Parkinson’s***
+
+- Alzheimer’s: Difficulties with reversal learning (Freedman & Oscar-Berman, 1989)
+
+- Alzheimer’s vs. Dementia: Larger deficits in reversal learning in fronto-temporal lobe dementia patients than Alzheimer’s (Ahmed et al., 2022)
+
+:::
+
+::::
+
+## 
