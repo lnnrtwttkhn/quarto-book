@@ -1,0 +1,35 @@
+---
+title: "Create a Website"
+---
+In the previous chapters, we discussed that creating an online book to host the materials would be a way to make the resources more machine-actionable and generally more findable.
+There are many examples of scholars, organizations, and individuals who have shared their materials using a website created with Quarto.
+Here is a list of just a few of them, utilizing different features of Quarto for educational purposes:
+
+| Creator(s)                                           	| Topic                                                                                                                     	| URL                                               	|
+|------------------------------------------------------	|---------------------------------------------------------------------------------------------------------------------------	|---------------------------------------------------	|
+| Lennart Wittkuhn, Konrad Pagenstedt & Liese Kümmerle 	| An extensive and comprehensive guide to GitHub, which was primarily taught in a seminar format at the University of Hamburg. 	| [Version Control Book](https://lennartwittkuhn.com/version-control-book/) 	|
+| Mine Çetinkaya-Rundel                                	| Advanced data visualization course taught at Duke University                                                              	| [Advanced Data Visualization](http://vizdata.org/)                               	|
+| Andrew Heiss                                         	| Data visualization with R                                                                                                 	| [Data Visualization with R](https://datavizf24.classes.andrewheiss.com/)       	|
+| The psyTeachR team at the University of Glasgow      	| Teaching reproducible research skills                                                                                     	| [Data Skills for Reproducible Research](https://psyteachr.github.io/reprores-v4/)          	|
+
+
+## Quarto for educational websites
+You have probably realized that Quarto is a great tool for creating reproducible documents.
+However, it is not primarily a tool for website development.
+That being said, it has the power to create a couple of specific types of websites that align with the main goal of Quarto—namely, reproducibility.
+
+If you have tried to create a website before, you probably know that getting started is not easy.
+Maybe you've used online website generators or even gone beyond that to learn HTML or WordPress.
+Unlike these tools, which are specifically developed for website creation, Quarto serves a different purpose—so why use Quarto instead?
+
+First of all, the FAIR principles can also be applied to websites created with Quarto.
+Second, it is much easier to create a website using Quarto.
+There are built-in templates and extensive customization options that cover almost everything a standard educational website needs.
+
+The biggest advantage of using Quarto to create a website appears when you have already used it to host your materials in other formats.
+For example, you've created slides, written lecture notes, and embedded multimedia resources using Quarto.
+Now, you want to make everything publicly available.
+With just a few clicks and some modifications to the yml file, you can witness the magic of Quarto in seamlessly bringing everything together.
+
+Lastly, creating and maintaining a website with Quarto can be completely free when combined with a little bit of GitHub.
+This further highlights how powerful these tools can be when used together.
