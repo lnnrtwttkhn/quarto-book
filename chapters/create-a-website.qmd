@@ -1,6 +1,8 @@
 ---
 title: "Create a Website"
 ---
+## Intoduction
+
 In the previous chapters, we discussed that creating an online book to host the materials would be a way to make the resources more machine-actionable and generally more findable.
 There are many examples of scholars, organizations, and individuals who have shared their materials using a website created with Quarto.
 Here is a list of just a few of them, utilizing different features of Quarto for educational purposes:
@@ -26,10 +28,92 @@ First of all, the FAIR principles can also be applied to websites created with Q
 Second, it is much easier to create a website using Quarto.
 There are built-in templates and extensive customization options that cover almost everything a standard educational website needs.
 
-The biggest advantage of using Quarto to create a website appears when you have already used it to host your materials in other formats.
+The biggest advantage of using Quarto to create a website appears when you have already used it to host your materials in Quarto's other formats i.e. manuscripts and slides.
 For example, you've created slides, written lecture notes, and embedded multimedia resources using Quarto.
 Now, you want to make everything publicly available.
-With just a few clicks and some modifications to the yml file, you can witness the magic of Quarto in seamlessly bringing everything together.
+With just a few clicks and some modifications to the `yml` file, you can see the magic of Quarto in bringing everything together.
 
-Lastly, creating and maintaining a website with Quarto can be completely free when combined with a little bit of GitHub.
+Lastly, creating and maintaining a website with Quarto can be completely free when combined with GitHub.
 This further highlights how powerful these tools can be when used together.
+
+You can watch this video from Brian Tarran's presentation on Posit conference about his journey of website making using Quarto.
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ncDEqHxMWnE?si=yp71b-NEs5a4QmxG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+## Basics of creating a website
+
+### Create a Quarto Website
+
+First, we have to create a Quarto project in RStudio for our website and locate its directory.
+(Image from a project)
+
+For version control purposes, check Create a Git repository.
+Leave the other options intact if you don't need them in your workflow.
+Click on Create Project.
+
+You can see the files that RStudio has created for you under the Files tab.
+For now, we mainly work with `.qmd` and `.yml` files.
+The `index.qmd` file is your homepage.
+You can render it to see a quick preview of how the website looks.
+
+### Locating the Website Folder
+
+When hosting a website, GitHub needs to know where the project files are stored in order to load and render them properly.
+
+Initially, the `_site` folder in the website project stores the website files.
+However, to connect our website to GitHub, we need to change the output directory of the website files to another folder called `docs`.
+
+To do this, open your `yml` file.
+Below `type: website`, add the following line:
+`output-dir: docs`
+
+Be careful when modifying the `yml` file, as it is highly sensitive to hierarchy and will throw errors if not configured correctly.
+
+Now, your `yml` file should look like this:
+
+```
+project:
+  type: website
+  output-dir: docs
+
+```
+Feel free to delete the `_site` folder.
+
+
+### Connect the website to GitHub
+
+Assuming you have a GitHub account, you can connect your local Quarto project to GitHub, hosted by GitHub Pages.
+Your website address will be: `yourgithubusername.github.io`, so choose your GitHub username wisely.
+
+Go to your GitHub account and create a new repository for your website—we’ll call it `yourrepository`.
+(Image)
+Leave the other options intact and click on **Create Repository**.
+
+In your Quarto website project, navigate to the **Terminal** tab (located near **Console**) and tell RStudio where to push your website using the following commands:
+
+```
+git remote add origin https://github.com/username/yourrepository  
+git branch -M main
+git add --all
+git commit -m "initial commit"
+git push -u origin main
+
+```
+
+1. Tell RStudio where the corresponding GitHub repository is to then push the files into it.
+2. Creates a GitHub brach called `main`.
+3. Stages all the changed files.
+4. Commits the changes.
+5. Finally, pushes the changed files into the GitHub repo.
+
+This can also be done in Git Bash or other terminals.
+
+Now, if you refresh your repository on GitHub, you'll see that the files have been pushed.
+
+In the repository, click **Settings**, then navigate to Pages on the left side.
+Here, you need to specify your `main` branch and set the `docs` folder as the location where changes and files are committed and stored.
+
+Congratulations!
+Your website is now live at `yourgithubusername.github.io`.
