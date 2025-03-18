@@ -117,3 +117,62 @@ Here, you need to specify your `main` branch and set the `docs` folder as the lo
 
 Congratulations!
 Your website is now live at `yourgithubusername.github.io`.
+
+### Adding Pages to Your Website
+Every `.qmd` file created in your project can be a page on your website.
+We recommend storing all the pages in a specific folder to keep your project organized.
+Under the **Files** tab, click on the icon to create a new document and choose **Quarto Document**.
+
+For example, if you want to have a page on the website that introduces the course you are teaching,
+create a `.qmd` file called `introduction` in the pages folder we created earlier.
+Then, navigate to the `_yml` file.
+Here, we need to add the `introduction` page.
+
+```
+website:
+  navbar:
+    background: primary
+    search: true
+    left:
+      - text: "Home"
+        href: index.qmd
+      - pages\introduction.qmd
+```
+By rendering the `index.qmd` file, we'll see that `introduction.qmd` has been added to the website.
+You can add content to the file as discussed in the previous chapters.
+
+You may have noticed that we've added - `pages\introduction.qmd`, a relative path, to specify where the introduction.qmd file is located.
+It is called a relative path because it is relative to our `index.qmd` file.
+The way you reference files is very important in Quarto, so double-check everything when writing relative paths.
+
+There are also absolute paths, in which you specify exactly where the file is located on your computer.
+Relative paths are more advantageous because they can be executed on other systems seamlessly.
+
+
+
+### More Beautiful Websites
+Quarto supports CSS customization, so if you are familiar with it—kudos!
+But if you are not very familiar with web development tools, don't worry.
+
+Quarto has [25 built-in themes](https://quarto.org/docs/websites/website-blog.html#themes).
+As usual, we refer to the `_yml` file to manipulate the theming of our website.
+In the lower part of the default `_yml` file, you can find the `html` formatting, where we apply the customization.
+
+```
+format:
+  html:
+    theme: cosmo
+```
+By default, Quarto uses the cosmo theme.
+You can replace it with either of the 25 themes, for example:
+
+```
+format:
+  html:
+    theme: lux
+```
+That’s all you need to create a fully functional website with a touch of customization to make your work publicly available using Quarto.
+Quarto offers a ton of customization features and modification options for websites, which you can access [here](https://quarto.org/docs/websites/).
+
+We believe that making it easier to start a FAIR project is more important than creating a perfect website.
+Alongside your project, you can learn how to customize it further and add more features, but the core skills needed to start the project are discussed here.
